@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%DanvilleCorylLyngdoh%git%Automation_CaringConnection%Automation_CaringConnection.prj</name>
+	<name>C%%Users%PalakGupta%OneDrive - pursuit software development pvt. ltd%Desktop%Automation_CaringConnection%Automation_CaringConnection.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1700643003261</id>
+=======
+			<id>1700643062466</id>
+>>>>>>> branch 'master' of https://github.com/Yuvaraj2308/Automation_CaringConnection.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +30,47 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1700643003267</id>
+=======
+			<id>1700643062476</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1700643194863</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1700643194876</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1700644016037</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1700644016055</id>
+>>>>>>> branch 'master' of https://github.com/Yuvaraj2308/Automation_CaringConnection.git
 			<name></name>
 			<type>6</type>
 			<matcher>

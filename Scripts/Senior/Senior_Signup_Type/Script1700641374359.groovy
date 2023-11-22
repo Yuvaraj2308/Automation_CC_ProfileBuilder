@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
- 
+
 //System.setProperty('webdriver.chrome.driver', 'C:/Users/PalakGupta/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe')
 //
 //ChromeOptions options = new ChromeOptions()
@@ -29,9 +29,7 @@ import org.openqa.selenium.Keys as Keys
 ////		put("profile.default_content_setting_values.media_stream_mic", 1);
 ////	}}
 ////);
-//
 //// Set preferences to allow microphone access
-//
 //DesiredCapabilities capabilities = DesiredCapabilities.chrome()
 //
 //capabilities.setCapability(ChromeOptions.CAPABILITY, options)
@@ -40,80 +38,101 @@ import org.openqa.selenium.Keys as Keys
 //
 //// Assuming you are using the Katalon Framework for the following lines
 //DriverFactory.changeWebDriver(driver)
- 
-CustomKeywords.'senior.Signup.signUp'(UserName, ZipCode, Email, Password)
- 
+//Open Browser
+WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
+
+//click on signup button
+WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
+
+//enter first name and last name
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), UserName)
+
+//enter zip code
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), ZipCode)
+
+//enter emailID
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), Email)
+
+//enter password
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), Password)
+
+//select role
+WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
+
+//click on signup button
+WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
+
 //------------------------------------------------
 //Verify point-3 "Expectations from Companion"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior'),
-	0)
- 
+WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior'), 
+    0)
+
 //Verify Text "Select the Button of your choice"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'),
-	0)
- 
+WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'), 
+    0)
+
 //Verify Text "We are exicted"
 WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited'), 0)
- 
+
 //Click on I want to type button
-WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'),
-	65)
- 
+WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'), 
+    65)
+
 //click on I wnt to type button
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'))
- 
+
 //enter you profie info
 WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), Profile)
- 
+
 //scroll to next btn
-WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'),
-	0)
- 
+WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 
+    0)
+
 //click on next btn
 WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
- 
+
 //wait for category-view page to load
 //WebUI.waitForPageLoad(180)
 WebUI.delay(45)
- 
+
 //Capture and print data of Education Category
-String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'),
-	'value')
- 
+String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 
+    'value')
+
 //String EducationNew = 'I\'m Palak, a retired literature professor with a PhD from the University of Mumbai.'
-CustomKeywords.'senior.ValidateText.calculateAndPrintPercentageMatch'('EDUCATION', Education, EducationNew)
- 
+CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('EDUCATION', Education, EducationNew)
+
 //Capture and print data of Hobbies Category
-String Hobbies = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies'),
-	'value')
- 
+String Hobbies = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies'), 
+    'value')
+
 //String HobbiesNew = 'I\'ve dedicated over 35 years to teaching and now spend my retirement immersed in classic novels and poetry. I have a passion for painting and photography.'
-CustomKeywords.'senior.ValidateText.calculateAndPrintPercentageMatch'('HOBBIES', Hobbies, HobbiesNew)
- 
+CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('HOBBIES', Hobbies, HobbiesNew)
+
 //Capture and print data of Expectation Category
-String Expectations = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation'),
-	'value')
- 
+String Expectations = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation'), 
+    'value')
+
 //String ExpectationsNew = 'I value companions who are creative, thoughtful. We could discuss a novel or paint together.'
-CustomKeywords.'senior.ValidateText.calculateAndPrintPercentageMatch'('EXPECTATIONS', Expectations, ExpectationsNew)
- 
+CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('EXPECTATIONS', Expectations, ExpectationsNew)
+
 //Capture and print data of Other Category
-String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health'),
-	'value')
- 
+String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health'), 
+    'value')
+
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
-CustomKeywords.'senior.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
- 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'),
-	65)
- 
+CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'), 
+    65)
+
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'))
- 
+
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
- 
+
 WebUI.delay(2)
- 
+
 WebUI.closeBrowser()
- 
+
