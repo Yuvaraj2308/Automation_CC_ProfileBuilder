@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_Signup_Type" time="5.335" tests="5" failures="0" errors="5">
+   <testsuite name="Senior_Signup_Type" tests="5" failures="0" errors="5" time="5.335" skipped="0" timestamp="2023-11-22 14:25:56" hostname="PalakGupta - LININDAUG23-266" id="Test Suites/Senior/Senior_Signup_Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20231122_142551\\Senior\\Senior_Signup_Type\\20231122_142552"/>
+         <property name="logFiles" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20231122_142551\\Senior\\Senior_Signup_Type\\20231122_142552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PalakGupta - LININDAUG23-266"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Senior/Senior_Signup_Type" time="0.227" classname="Test Cases/Senior/Senior_Signup_Type" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior/Senior_Signup_Type FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 15.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                 ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 25.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                           ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities&#xa; @ line 33, column 21.&#xa;   DesiredCapabilities capabilities = DesiredCapabilities.chrome()&#xa;                       ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver&#xa; @ line 37, column 11.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;             ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver&#xa; @ line 37, column 20.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;                      ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-22 14:25:57 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2023-11-22 14:25:57 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior/Senior_Signup_Type" time="0.184" classname="Test Cases/Senior/Senior_Signup_Type" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior/Senior_Signup_Type FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 15.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                 ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 25.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                           ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities&#xa; @ line 33, column 21.&#xa;   DesiredCapabilities capabilities = DesiredCapabilities.chrome()&#xa;                       ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver&#xa; @ line 37, column 11.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;             ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver&#xa; @ line 37, column 20.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;                      ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-22 14:25:58 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2023-11-22 14:25:58 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior/Senior_Signup_Type" time="0.256" classname="Test Cases/Senior/Senior_Signup_Type" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior/Senior_Signup_Type FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 15.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                 ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 25.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                           ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities&#xa; @ line 33, column 21.&#xa;   DesiredCapabilities capabilities = DesiredCapabilities.chrome()&#xa;                       ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver&#xa; @ line 37, column 11.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;             ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver&#xa; @ line 37, column 20.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;                      ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-22 14:25:59 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2023-11-22 14:25:59 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior/Senior_Signup_Type" time="0.238" classname="Test Cases/Senior/Senior_Signup_Type" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior/Senior_Signup_Type FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 15.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                 ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 25.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                           ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities&#xa; @ line 33, column 21.&#xa;   DesiredCapabilities capabilities = DesiredCapabilities.chrome()&#xa;                       ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver&#xa; @ line 37, column 11.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;             ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver&#xa; @ line 37, column 20.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;                      ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-22 14:26:00 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2023-11-22 14:26:00 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior/Senior_Signup_Type" time="0.194" classname="Test Cases/Senior/Senior_Signup_Type" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior/Senior_Signup_Type FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 15.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                 ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions&#xa; @ line 22, column 25.&#xa;   ChromeOptions options = new ChromeOptions()&#xa;                           ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities&#xa; @ line 33, column 21.&#xa;   DesiredCapabilities capabilities = DesiredCapabilities.chrome()&#xa;                       ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver&#xa; @ line 37, column 11.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;             ^&#xa;&#xa;file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver&#xa; @ line 37, column 20.&#xa;   WebDriver driver = new ChromeDriver(capabilities)&#xa;                      ^&#xa;&#xa;5 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-22 14:26:01 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2023-11-22 14:26:01 - [TEST_CASE][ERROR] - Test Cases/Senior/Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-22 14:25:56 - [TEST_SUITE][ERROR] - Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[2023-11-22 14:25:56 - [TEST_SUITE][ERROR] - Senior_Signup_Type: Test Cases/Senior/Senior_Signup_Type FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 15.
+   ChromeOptions options = new ChromeOptions()
+                 ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 22: unable to resolve class ChromeOptions
+ @ line 22, column 25.
+   ChromeOptions options = new ChromeOptions()
+                           ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 33: unable to resolve class DesiredCapabilities
+ @ line 33, column 21.
+   DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+                       ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class WebDriver
+ @ line 37, column 11.
+   WebDriver driver = new ChromeDriver(capabilities)
+             ^
+
+file:/C:/Users/PalakGupta/OneDrive%20-%20pursuit%20software%20development%20pvt.%20ltd/Desktop/Automation_CaringConnection/Scripts/Senior/Senior_Signup_Type/Script1700641374359.groovy: 37: unable to resolve class ChromeDriver
+ @ line 37, column 20.
+   WebDriver driver = new ChromeDriver(capabilities)
+                      ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700643352933.run(TempTestSuite1700643352933.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
