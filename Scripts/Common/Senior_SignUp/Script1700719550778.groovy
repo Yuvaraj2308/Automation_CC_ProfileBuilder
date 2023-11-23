@@ -60,15 +60,19 @@ WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
 
 //enter first name and last name
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), UserName)
+//WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 'palak')
 
 //enter zip code
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), ZipCode)
+//WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '464646')
 
 //enter emailID
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), Email)
+//WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'ppala3@gmail.com')
 
 //enter password
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), Password)
+//WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
 
 //select role
 WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))

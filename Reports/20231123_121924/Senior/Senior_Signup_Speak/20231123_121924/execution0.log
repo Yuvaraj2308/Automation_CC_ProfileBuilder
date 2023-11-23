@@ -6385,3 +6385,43 @@ Senior_Signup_Speak.run(Senior_Signup_Speak:166)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<record>
+  <date>2023-11-23T07:52:26.040836900Z</date>
+  <millis>1700725946040</millis>
+  <nanos>836900</nanos>
+  <sequence>5871</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>999</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Senior/Senior_SignUp_Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-11-23T07:52:26.041837100Z</date>
+  <millis>1700725946041</millis>
+  <nanos>837100</nanos>
+  <sequence>5872</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>999</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-11-23T07:52:26.042836800Z</date>
+  <millis>1700725946042</millis>
+  <nanos>836800</nanos>
+  <sequence>5873</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>999</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\PalakGupta\OneDrive - pursuit software development pvt. ltd\Desktop\Automation_CaringConnection\Data Files\Senior_Companion_DataK.xlsx&amp;apos; and sheet name &amp;apos;SeniorSignUp&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
