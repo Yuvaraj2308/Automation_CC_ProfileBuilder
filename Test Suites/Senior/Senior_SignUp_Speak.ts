@@ -15,7 +15,7 @@
       <guid>d9a2668e-df75-45c8-a4f9-b89f65b5257a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior/Senior_Signup_Speak</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/TC02_CreateProfile_Speak</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</id>

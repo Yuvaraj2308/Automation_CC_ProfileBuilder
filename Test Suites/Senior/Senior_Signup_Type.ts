@@ -15,7 +15,7 @@
       <guid>f0921561-a20b-4604-8fe2-5337566bbfda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior/Senior_Signup_Type</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/TC01_CreateProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>68877e28-60fd-4d80-a4e6-65ac8dd22a04</id>
@@ -55,12 +55,6 @@
          <type>DATA_COLUMN</type>
          <value>Profile</value>
          <variableId>e58ef876-13e8-4c82-bb57-997b417d4ec3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>68877e28-60fd-4d80-a4e6-65ac8dd22a04</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>EducationNew</value>
-         <variableId>59ba8b8e-266e-49a4-8522-85b92b8020b5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>68877e28-60fd-4d80-a4e6-65ac8dd22a04</testDataLinkId>

@@ -31,51 +31,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
-
-ChromeOptions options = new ChromeOptions()
-
-options.addArguments('start-maximized')
-
-//Set preferences to allow microphone access
-//options.setExperimentalOption("prefs",
-//	new HashMap<String, Object>() {{
-//		put("profile.default_content_setting_values.media_stream_mic", 1);
-//	}}
-//);
-// Set preferences to allow microphone access
-DesiredCapabilities capabilities = DesiredCapabilities.chrome()
-
-capabilities.setCapability(ChromeOptions.CAPABILITY, options)
-
-WebDriver driver = new ChromeDriver(capabilities)
-
-// Assuming you are using the Katalon Framework for the following lines
-DriverFactory.changeWebDriver(driver)
-//Open Browser
-WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
-
-//click on signup button
-WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
-
-//enter first name and last name
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), UserName)
-
-//enter zip code
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), ZipCode)
-
-//enter emailID
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), Email)
-
-//enter password
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), Password)
-
-//select role
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
-
-//click on signup button
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
-
+WebUI.callTestCase(findTestCase('Common_TestCases/Senior_SignUp'),)
 //------------------------------------------------
 //Verify point-3 "Expectations from Companion"
 WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior'), 

@@ -15,7 +15,7 @@
       <guid>0a7caf1a-8ac9-47c7-bec6-7798d6e907bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior/Senior_SignIn_type</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/TC03_ReRecord_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aad88a6a-682f-4dfa-bce2-2c5b9b6393ae</id>

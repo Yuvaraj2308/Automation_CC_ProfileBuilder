@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Senior_Signup_Type</name>
+   <name>TC01_CreateProfile_Type</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cd46381c-717e-4428-902b-11413d73393e</testCaseGuid>
@@ -34,12 +34,6 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>e58ef876-13e8-4c82-bb57-997b417d4ec3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>59ba8b8e-266e-49a4-8522-85b92b8020b5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -93,13 +87,6 @@
       <id>e58ef876-13e8-4c82-bb57-997b417d4ec3</id>
       <masked>false</masked>
       <name>Profile</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>59ba8b8e-266e-49a4-8522-85b92b8020b5</id>
-      <masked>false</masked>
-      <name>EducationNew</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
