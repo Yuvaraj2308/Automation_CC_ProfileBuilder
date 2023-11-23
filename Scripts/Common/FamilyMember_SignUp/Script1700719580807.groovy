@@ -31,7 +31,7 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-System.setProperty('webdriver.chrome.driver', 'C:/Users/PalakGupta/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe')
+System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
 
 ChromeOptions options = new ChromeOptions()
 

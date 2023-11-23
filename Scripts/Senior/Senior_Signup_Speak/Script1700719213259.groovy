@@ -94,7 +94,7 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 
 try {
     // Load the audio file
-    AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File('Data Files/danville.wav'))
+    AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File('Data Files/ProfileAudio.wav'))
 
     // Create a Clip and play the audio
     Clip clip = AudioSystem.getClip()
