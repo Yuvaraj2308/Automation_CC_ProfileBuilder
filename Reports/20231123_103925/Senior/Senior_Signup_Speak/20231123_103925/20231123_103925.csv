@@ -1,0 +1,149 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:39:29,2023-11-23 10:50:23,10m - 54.098s,FAILED
+,,,,,,,
+Test Cases/Common/Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:39:30,2023-11-23 10:39:54,24.780s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""Data Files/chromedriver-win64/chromedriver.exe"")",Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.004s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.052s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.012s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1700654328379$1(this))",Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.019s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.018s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:31,0.047s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 119.0.0.0,,,2023-11-23 10:39:31,2023-11-23 10:39:33,2.147s,PASSED
+changeWebDriver(driver),Chrome 119.0.0.0,,,2023-11-23 10:39:33,2023-11-23 10:39:33,0.095s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 119.0.0.0,,,2023-11-23 10:39:33,2023-11-23 10:39:35,1.408s,PASSED
+"click(findTestObject(""Login_Pages/Sign_In_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:39:35,2023-11-23 10:39:39,4.656s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_First_Last_Name""), Username)",Chrome 119.0.0.0,,,2023-11-23 10:39:39,2023-11-23 10:39:40,0.388s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_ZIP_code""), ZipCode)",Chrome 119.0.0.0,,,2023-11-23 10:39:40,2023-11-23 10:39:40,0.494s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Username""), Email)",Chrome 119.0.0.0,,,2023-11-23 10:39:40,2023-11-23 10:39:41,0.491s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Password""), Password)",Chrome 119.0.0.0,,,2023-11-23 10:39:41,2023-11-23 10:39:41,0.485s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_role_Senior""))",Chrome 119.0.0.0,,,2023-11-23 10:39:41,2023-11-23 10:39:42,0.460s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:39:42,2023-11-23 10:39:42,0.232s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:39:42,2023-11-23 10:39:54,12.392s,FAILED
+,,,,,,,
+Test Cases/Common/Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:39:55,2023-11-23 10:42:33,2m - 37.740s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""Data Files/chromedriver-win64/chromedriver.exe"")",Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.029s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.008s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1700654328379$1(this))",Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.000s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.051s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:56,0.016s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 119.0.0.0,,,2023-11-23 10:39:56,2023-11-23 10:39:57,1.378s,PASSED
+changeWebDriver(driver),Chrome 119.0.0.0,,,2023-11-23 10:39:57,2023-11-23 10:39:57,0.052s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 119.0.0.0,,,2023-11-23 10:39:57,2023-11-23 10:40:06,8.739s,PASSED
+"click(findTestObject(""Login_Pages/Sign_In_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:40:06,2023-11-23 10:40:08,2.372s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_First_Last_Name""), Username)",Chrome 119.0.0.0,,,2023-11-23 10:40:08,2023-11-23 10:40:09,0.837s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_ZIP_code""), ZipCode)",Chrome 119.0.0.0,,,2023-11-23 10:40:09,2023-11-23 10:40:10,0.803s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Username""), Email)",Chrome 119.0.0.0,,,2023-11-23 10:40:10,2023-11-23 10:40:10,0.432s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Password""), Password)",Chrome 119.0.0.0,,,2023-11-23 10:40:10,2023-11-23 10:40:11,0.404s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_role_Senior""))",Chrome 119.0.0.0,,,2023-11-23 10:40:11,2023-11-23 10:40:11,0.339s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:40:11,2023-11-23 10:40:11,0.220s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:40:11,2023-11-23 10:40:17,5.692s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:40:17,2023-11-23 10:40:17,0.194s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 119.0.0.0,,,2023-11-23 10:40:17,2023-11-23 10:41:11,53.401s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 119.0.0.0,,,2023-11-23 10:41:11,2023-11-23 10:41:11,0.404s,PASSED
+try,Chrome 119.0.0.0,,,2023-11-23 10:41:11,2023-11-23 10:41:30,18.798s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 119.0.0.0,,,2023-11-23 10:41:30,2023-11-23 10:41:30,0.249s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/btn_Next""), 0)",Chrome 119.0.0.0,,,2023-11-23 10:41:30,2023-11-23 10:41:30,0.150s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/btn_Next""), 60)",Chrome 119.0.0.0,,,2023-11-23 10:41:30,2023-11-23 10:41:47,16.221s,PASSED
+"click(findTestObject(""Profile_Creation_Page/btn_Next""))",Chrome 119.0.0.0,,,2023-11-23 10:41:47,2023-11-23 10:41:47,0.220s,PASSED
+Thread.sleep(40000),Chrome 119.0.0.0,,,2023-11-23 10:41:47,2023-11-23 10:42:27,40.003s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.185s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EDUCATION"", Education, EducationNew)",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.174s,PASSED
+"Hobbies = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.179s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""HOBBIES"", Hobbies, HobbiesNew)",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.001s,PASSED
+"Expectations = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.127s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EXPECTATIONS"", Expectations, ExpectationsNew)",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:27,0.002s,PASSED
+"Others = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:42:27,2023-11-23 10:42:28,0.196s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""OTHERS"", Others, OtherNew)",Chrome 119.0.0.0,,,2023-11-23 10:42:28,2023-11-23 10:42:28,0.001s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue""), 65)",Chrome 119.0.0.0,,,2023-11-23 10:42:28,2023-11-23 10:42:28,0.137s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue""))",Chrome 119.0.0.0,,,2023-11-23 10:42:28,2023-11-23 10:42:30,2.354s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 119.0.0.0,,,2023-11-23 10:42:30,2023-11-23 10:42:30,0.109s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-23 10:42:30,2023-11-23 10:42:32,2.024s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 10:42:32,2023-11-23 10:42:33,0.769s,PASSED
+,,,,,,,
+Test Cases/Common/Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:45:07,2m - 33.717s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""Data Files/chromedriver-win64/chromedriver.exe"")",Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1700654328379$1(this))",Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:33,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 119.0.0.0,,,2023-11-23 10:42:33,2023-11-23 10:42:35,1.294s,PASSED
+changeWebDriver(driver),Chrome 119.0.0.0,,,2023-11-23 10:42:35,2023-11-23 10:42:35,0.071s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 119.0.0.0,,,2023-11-23 10:42:35,2023-11-23 10:42:38,3.163s,PASSED
+"click(findTestObject(""Login_Pages/Sign_In_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:42:38,2023-11-23 10:42:40,2.344s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_First_Last_Name""), Username)",Chrome 119.0.0.0,,,2023-11-23 10:42:40,2023-11-23 10:42:40,0.287s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_ZIP_code""), ZipCode)",Chrome 119.0.0.0,,,2023-11-23 10:42:40,2023-11-23 10:42:41,0.271s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Username""), Email)",Chrome 119.0.0.0,,,2023-11-23 10:42:41,2023-11-23 10:42:41,0.349s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Password""), Password)",Chrome 119.0.0.0,,,2023-11-23 10:42:41,2023-11-23 10:42:41,0.289s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_role_Senior""))",Chrome 119.0.0.0,,,2023-11-23 10:42:41,2023-11-23 10:42:41,0.190s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:42:41,2023-11-23 10:42:42,0.186s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:42:42,2023-11-23 10:42:48,6.247s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:42:48,2023-11-23 10:42:48,0.131s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 119.0.0.0,,,2023-11-23 10:42:48,2023-11-23 10:43:41,53.129s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 119.0.0.0,,,2023-11-23 10:43:41,2023-11-23 10:43:42,0.514s,PASSED
+try,Chrome 119.0.0.0,,,2023-11-23 10:43:42,2023-11-23 10:43:42,0.064s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 119.0.0.0,,,2023-11-23 10:43:42,2023-11-23 10:43:42,0.307s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/btn_Next""), 0)",Chrome 119.0.0.0,,,2023-11-23 10:43:42,2023-11-23 10:43:42,0.159s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/btn_Next""), 60)",Chrome 119.0.0.0,,,2023-11-23 10:43:42,2023-11-23 10:43:55,13.146s,PASSED
+"click(findTestObject(""Profile_Creation_Page/btn_Next""))",Chrome 119.0.0.0,,,2023-11-23 10:43:55,2023-11-23 10:43:56,0.195s,PASSED
+Thread.sleep(40000),Chrome 119.0.0.0,,,2023-11-23 10:43:56,2023-11-23 10:44:36,40.006s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:44:36,2023-11-23 10:45:07,31.356s,FAILED
+,,,,,,,
+Test Cases/Common/Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:47:44,2m - 37.362s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""Data Files/chromedriver-win64/chromedriver.exe"")",Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.004s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.001s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.000s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1700654328379$1(this))",Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.000s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.004s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:07,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 119.0.0.0,,,2023-11-23 10:45:07,2023-11-23 10:45:08,1.250s,PASSED
+changeWebDriver(driver),Chrome 119.0.0.0,,,2023-11-23 10:45:08,2023-11-23 10:45:08,0.061s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 119.0.0.0,,,2023-11-23 10:45:08,2023-11-23 10:45:12,3.160s,PASSED
+"click(findTestObject(""Login_Pages/Sign_In_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:45:12,2023-11-23 10:45:14,2.342s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_First_Last_Name""), Username)",Chrome 119.0.0.0,,,2023-11-23 10:45:14,2023-11-23 10:45:14,0.417s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_ZIP_code""), ZipCode)",Chrome 119.0.0.0,,,2023-11-23 10:45:14,2023-11-23 10:45:15,0.361s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Username""), Email)",Chrome 119.0.0.0,,,2023-11-23 10:45:15,2023-11-23 10:45:15,0.305s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Password""), Password)",Chrome 119.0.0.0,,,2023-11-23 10:45:15,2023-11-23 10:45:16,0.591s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_role_Senior""))",Chrome 119.0.0.0,,,2023-11-23 10:45:16,2023-11-23 10:45:16,0.342s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:45:16,2023-11-23 10:45:16,0.205s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:45:16,2023-11-23 10:45:22,5.554s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:45:22,2023-11-23 10:45:22,0.277s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 119.0.0.0,,,2023-11-23 10:45:22,2023-11-23 10:46:15,52.903s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 119.0.0.0,,,2023-11-23 10:46:15,2023-11-23 10:46:15,0.531s,PASSED
+try,Chrome 119.0.0.0,,,2023-11-23 10:46:15,2023-11-23 10:46:16,0.181s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 119.0.0.0,,,2023-11-23 10:46:16,2023-11-23 10:46:16,0.600s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/btn_Next""), 0)",Chrome 119.0.0.0,,,2023-11-23 10:46:16,2023-11-23 10:46:17,0.300s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/btn_Next""), 60)",Chrome 119.0.0.0,,,2023-11-23 10:46:17,2023-11-23 10:46:32,15.851s,PASSED
+"click(findTestObject(""Profile_Creation_Page/btn_Next""))",Chrome 119.0.0.0,,,2023-11-23 10:46:32,2023-11-23 10:46:33,0.492s,PASSED
+Thread.sleep(40000),Chrome 119.0.0.0,,,2023-11-23 10:46:33,2023-11-23 10:47:13,40.004s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:47:13,2023-11-23 10:47:44,31.572s,FAILED
+,,,,,,,
+Test Cases/Common/Signup_Speak,Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:50:23,2m - 37.997s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""Data Files/chromedriver-win64/chromedriver.exe"")",Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.000s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.004s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1700654328379$1(this))",Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.016s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.028s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:45,0.056s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 119.0.0.0,,,2023-11-23 10:47:45,2023-11-23 10:47:47,1.313s,PASSED
+changeWebDriver(driver),Chrome 119.0.0.0,,,2023-11-23 10:47:47,2023-11-23 10:47:47,0.054s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 119.0.0.0,,,2023-11-23 10:47:47,2023-11-23 10:47:50,3.226s,PASSED
+"click(findTestObject(""Login_Pages/Sign_In_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:47:50,2023-11-23 10:47:52,2.390s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_First_Last_Name""), Username)",Chrome 119.0.0.0,,,2023-11-23 10:47:52,2023-11-23 10:47:53,0.420s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_ZIP_code""), ZipCode)",Chrome 119.0.0.0,,,2023-11-23 10:47:53,2023-11-23 10:47:53,0.480s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Username""), Email)",Chrome 119.0.0.0,,,2023-11-23 10:47:53,2023-11-23 10:47:54,0.401s,PASSED
+"setText(findTestObject(""Login_Pages/Sign_Up_Page/Input_Password""), Password)",Chrome 119.0.0.0,,,2023-11-23 10:47:54,2023-11-23 10:47:54,0.386s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_role_Senior""))",Chrome 119.0.0.0,,,2023-11-23 10:47:54,2023-11-23 10:47:54,0.235s,PASSED
+"click(findTestObject(""Login_Pages/Sign_Up_Page/button_Sign_Up""))",Chrome 119.0.0.0,,,2023-11-23 10:47:54,2023-11-23 10:47:55,0.334s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:47:55,2023-11-23 10:48:01,6.859s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 119.0.0.0,,,2023-11-23 10:48:01,2023-11-23 10:48:02,0.193s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 119.0.0.0,,,2023-11-23 10:48:02,2023-11-23 10:48:55,53.652s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 119.0.0.0,,,2023-11-23 10:48:55,2023-11-23 10:48:56,0.687s,PASSED
+try,Chrome 119.0.0.0,,,2023-11-23 10:48:56,2023-11-23 10:48:56,0.032s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 119.0.0.0,,,2023-11-23 10:48:56,2023-11-23 10:48:56,0.313s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/btn_Next""), 0)",Chrome 119.0.0.0,,,2023-11-23 10:48:56,2023-11-23 10:48:57,0.202s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/btn_Next""), 60)",Chrome 119.0.0.0,,,2023-11-23 10:48:57,2023-11-23 10:49:10,13.133s,PASSED
+"click(findTestObject(""Profile_Creation_Page/btn_Next""))",Chrome 119.0.0.0,,,2023-11-23 10:49:10,2023-11-23 10:49:11,1.247s,PASSED
+Thread.sleep(40000),Chrome 119.0.0.0,,,2023-11-23 10:49:11,2023-11-23 10:49:51,40.573s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 119.0.0.0,,,2023-11-23 10:49:51,2023-11-23 10:50:23,31.549s,FAILED

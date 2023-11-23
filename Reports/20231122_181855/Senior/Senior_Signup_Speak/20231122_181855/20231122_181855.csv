@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_Signup_Speak,,,,2023-11-22 18:18:57,2023-11-22 18:18:59,2.670s,ERROR
+,,,,,,,
+Test Cases/Common/Signup_Speak,,,,2023-11-22 18:18:57,2023-11-22 18:18:57,0.587s,ERROR
+,,,,,,,
+Test Cases/Common/Signup_Speak,,,,2023-11-22 18:18:58,2023-11-22 18:18:58,0.363s,ERROR
+,,,,,,,
+Test Cases/Common/Signup_Speak,,,,2023-11-22 18:18:58,2023-11-22 18:18:58,0.371s,ERROR
+,,,,,,,
+Test Cases/Common/Signup_Speak,,,,2023-11-22 18:18:58,2023-11-22 18:18:59,0.408s,ERROR
+,,,,,,,
+Test Cases/Common/Signup_Speak,,,,2023-11-22 18:18:59,2023-11-22 18:18:59,0.367s,ERROR

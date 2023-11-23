@@ -20,23 +20,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class ValidateText {	
+public class ValidateText {
 	@Keyword
 	def void calculateAndPrintPercentageMatch(String category, String str1, String str2) {
 		List<String> words1 = Arrays.asList(str1.split("\\s+"))
 		List<String> words2 = Arrays.asList(str2.split("\\s+"))
- 
+
 		int totalWords = words1.size()
 		int matchCount = 0
- 
+
 		words1.each { word ->
 			if (words2.contains(word)) {
 				matchCount++
 			}
 		}
- 
+
 		double percentageMatch = (double) matchCount / totalWords * 100
- 
+
 		println(category + ":")
 		println("Total Words: " + totalWords)
 		println("Matching Words: " + matchCount)
