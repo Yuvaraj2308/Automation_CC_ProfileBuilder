@@ -15,7 +15,20 @@
       <guid>e6d3d310-1d35-407e-9fcd-99e6b7829f81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
       <testCaseId>Test Cases/Senior/Senior_Signup_Speak</testCaseId>
+=======
+      <testCaseId>Test Cases/Senior/Senior_Signup_Type</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>68877e28-60fd-4d80-a4e6-65ac8dd22a04</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Senior/Senior_SignUp_Data</testDataId>
+      </testDataLink>
+>>>>>>> branch 'master' of https://github.com/Yuvaraj2308/Automation_CaringConnection.git
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

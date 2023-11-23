@@ -52,41 +52,31 @@ WebDriver driver = new ChromeDriver(capabilities)
 
 // Assuming you are using the Katalon Framework for the following lines
 DriverFactory.changeWebDriver(driver)
+
 //Open Browser
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-//click on signup button
-WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
-
-//enter first name and last name
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), UserName)
-
-//enter zip code
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), ZipCode)
-
 //enter emailID
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), Email)
+WebUI.setText(findTestObject('Object Repository/Login_Pages/Sign_In_Page/input_Username'), Email)
 
 //enter password
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), Password)
-
-//select role
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
+WebUI.setText(findTestObject('Object Repository/Login_Pages/Sign_In_Page/input_Password'), Password)
 
 //click on signup button
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
+WebUI.click(findTestObject('Object Repository/Login_Pages/Sign_In_Page/button_Sign_In'))
 
-//------------------------------------------------
-//Verify point-3 "Expectations from Companion"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior'), 
+//click on rerecord button
+WebUI.delay(5)
+
+//scroll to re-record button
+WebUI.scrollToElement(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record'), 
     0)
 
-//Verify Text "Select the Button of your choice"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'), 
-    0)
+//click on Re-record
+WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record'))
 
-//Verify Text "We are exicted"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited'), 0)
+//click on proceed
+WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord'))
 
 //Click on I want to type button
 WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'), 
@@ -96,7 +86,7 @@ WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Crea
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'))
 
 //enter you profie info
-WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), Profile)
+WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), NewProfile)
 
 //scroll to next btn
 WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 
@@ -109,7 +99,7 @@ WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Crea
 //WebUI.waitForPageLoad(180)
 WebUI.delay(45)
 
-//Capture and print data of Education Category
+//Capture and print data of categories
 String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 
     'value')
 
@@ -136,6 +126,7 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
+
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'), 
     65)
