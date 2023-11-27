@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info",
+      "brokenLocator": "//textarea[@id\u003d\u0027inputDescriptionEducation\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info_position.png"
+    }
+  ]
 }

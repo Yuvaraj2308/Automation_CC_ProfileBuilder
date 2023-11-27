@@ -12,70 +12,70 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>f5196c6b-4811-443b-9f64-5ac085119666</testSuiteGuid>
    <testCaseLink>
-      <guid>d9a2668e-df75-45c8-a4f9-b89f65b5257a</guid>
+      <guid>5facec79-70eb-437b-beb9-a00d145f5463</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior/Senior_Signup_Speak</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/TC02_CreateProfile_Speak</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</id>
+         <id>302c6eba-df16-48a8-95b5-a30e37d746a2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Senior/Senior_SignUp_Data</testDataId>
+         <testDataId>Data Files/Senior/Senior_Data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UserName</value>
          <variableId>68c55595-b757-4261-9c5d-5e73432ae41f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ZipCode</value>
          <variableId>a9d3c43c-bd85-45ca-ada7-109b87fba7ad</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>64e07320-09fb-4360-9cc0-065749b4db6c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>f8d02862-f687-49ad-acb3-bffd7177d0ab</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Profile</value>
          <variableId>a4bb20d9-4b2d-45dd-9d29-1638e8e8cd47</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EducationNew</value>
          <variableId>68a44726-56c4-4787-aaed-2c7f49de26a3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>HobbiesNew</value>
          <variableId>0dfc700f-6bfd-4a0b-a05c-46616a065d12</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ExpectationsNew</value>
          <variableId>c7a0ba9f-f2af-48bc-b4eb-31d698b7f78a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>efb0d716-50ac-4f33-a7d8-7c5512cf5ce6</testDataLinkId>
+         <testDataLinkId>302c6eba-df16-48a8-95b5-a30e37d746a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>OtherNew</value>
          <variableId>a626d2b8-7086-45fa-bddb-eb1448976c88</variableId>

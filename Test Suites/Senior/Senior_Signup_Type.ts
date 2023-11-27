@@ -15,7 +15,20 @@
       <guid>90c5610b-eea7-400d-949e-9bdf65f34b97</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
       <testCaseId>Test Cases/Senior/Senior_Signup_Type</testCaseId>
+=======
+      <testCaseId>Test Cases/Senior_TestCases/TC01_CreateProfile_Type</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>68877e28-60fd-4d80-a4e6-65ac8dd22a04</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Senior/Senior_SignUp_Data</testDataId>
+      </testDataLink>
+>>>>>>> branch 'master' of https://github.com/Yuvaraj2308/Automation_CaringConnection.git
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -24,6 +37,7 @@
          <variableId>e58ef876-13e8-4c82-bb57-997b417d4ec3</variableId>
       </variableLink>
       <variableLink>
+<<<<<<< HEAD
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
@@ -33,6 +47,11 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
+=======
+         <testDataLinkId>68877e28-60fd-4d80-a4e6-65ac8dd22a04</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HobbiesNew</value>
+>>>>>>> branch 'master' of https://github.com/Yuvaraj2308/Automation_CaringConnection.git
          <variableId>438fbdce-166a-4665-b001-b658750c82f3</variableId>
       </variableLink>
       <variableLink>
