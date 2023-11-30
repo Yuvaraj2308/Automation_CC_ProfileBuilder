@@ -15,7 +15,7 @@
       <guid>5ab5801c-d827-43ae-95a4-c3018bcfb4d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Companion_TestCases/TC04_CreateProfile_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_TestCases/TC06_CreateProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>03fb3764-eb18-48a7-8b07-4be63581b663</id>
@@ -85,7 +85,7 @@
       <guid>5a60ed28-051d-4add-9024-c7342db3a731</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Companion_TestCases/TC05_ReRecord_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_TestCases/TC07_ReRecord_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>09f85f40-adf4-42c0-bdab-9829f69d1937</id>

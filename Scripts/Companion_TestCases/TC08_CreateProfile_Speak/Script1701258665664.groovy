@@ -31,9 +31,11 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-WebUI.callTestCase(findTestCase('Common_TestCases/Senior_SignUp'), [('username') : UserName, ('zipcode') : ZipCode, ('email') : Email
+WebUI.callTestCase(findTestCase('Common_TestCases/Companion_SignUp'), [('username') : UserName, ('zipcode') : ZipCode, ('email') : Email
         , ('password') : Password], FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.callTestCase(findTestCase('Common_TestCases/Companion_SignUp'), [('username') : UserName, ('zipcode') : ZipCode, ('email') : Email
+//	, ('password') : Password], FailureHandling.STOP_ON_FAILURE)
 //Verify point-3 "Expectations from Companion"
 //WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion'),  10)
 //Verify Text "Select the Button of your choice"
@@ -78,18 +80,17 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 /*
 // Find the element to which you want to scroll
 WebElement elementToScrollTo = WebUiCommonHelper.findWebElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 10)
- 
 // Scroll to the element
 JavascriptExecutor js = (JavascriptExecutor) driver
 js.executeScript("arguments[0].scrollIntoView(true);", elementToScrollTo)
 */
 //scroll to next btn
-WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 0)
+WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 0)
 
-WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 60)
+WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 60)
 
 //click on next btn
-WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
+WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
 
 Thread.sleep(40000)
 

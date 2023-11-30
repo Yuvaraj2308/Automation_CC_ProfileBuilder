@@ -31,21 +31,18 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-WebUI.callTestCase(findTestCase('Common_TestCases/Senior_SignUp'), [('username') : UserName, ('zipcode') : ZipCode, ('email') : Email
-        , ('password') : Password], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : Email, ('password') : Password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : Email, ('password') : Password], FailureHandling.STOP_ON_FAILURE)
 
-//Verify point-3 "Expectations from Companion"
-//WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion'),  10)
-//Verify Text "Select the Button of your choice"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'), 
-    10)
+WebUI.delay(5)
 
-//Verify Text "We are exicted"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited'), 10)
+//Re-Record the Profile
+WebUI.scrollToElement(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Re-record'), 0)
 
-//click on I want to speak
-//WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Speak'),
-//    67)
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Re-record'))
+
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord'))
+
 WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record'), 67)
 
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record'))
@@ -75,21 +72,13 @@ catch (Exception e) {
 
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop'))
 
-/*
-// Find the element to which you want to scroll
-WebElement elementToScrollTo = WebUiCommonHelper.findWebElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 10)
- 
-// Scroll to the element
-JavascriptExecutor js = (JavascriptExecutor) driver
-js.executeScript("arguments[0].scrollIntoView(true);", elementToScrollTo)
-*/
-//scroll to next btn
-WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 0)
+WebUI.delay(5)
 
-WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 60)
+//scroll to next btn
+WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 0)
 
 //click on next btn
-WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
+WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
 
 Thread.sleep(40000)
 

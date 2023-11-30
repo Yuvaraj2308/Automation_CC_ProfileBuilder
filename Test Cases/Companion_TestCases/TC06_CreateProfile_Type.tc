@@ -1,111 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_CreateProfile_Speak</name>
+   <name>TC06_CreateProfile_Type</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>24441e62-504b-404e-8b7e-6dbaafa9a0cd</testCaseGuid>
+   <testCaseGuid>3954a564-bc05-4263-ab6d-8cd277d66c88</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>68c55595-b757-4261-9c5d-5e73432ae41f</variableId>
+      <variableId>82e35728-5314-4ba0-ad67-c4a6a2308764</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a9d3c43c-bd85-45ca-ada7-109b87fba7ad</variableId>
+      <variableId>657ed694-f271-4515-a9fe-acfad6967360</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>64e07320-09fb-4360-9cc0-065749b4db6c</variableId>
+      <variableId>1f48b86f-0ba4-416a-b853-03c0b206ec26</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f8d02862-f687-49ad-acb3-bffd7177d0ab</variableId>
+      <variableId>1118885b-9369-409a-aa83-8f88684700b6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>68a44726-56c4-4787-aaed-2c7f49de26a3</variableId>
+      <variableId>d04839db-661c-4703-a2e5-c8020a95b4a2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0dfc700f-6bfd-4a0b-a05c-46616a065d12</variableId>
+      <variableId>1eaa5376-49a4-4241-ac64-4b3751493b40</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7a0ba9f-f2af-48bc-b4eb-31d698b7f78a</variableId>
+      <variableId>16a20e1d-1d21-42b8-ab2a-b53548542092</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a626d2b8-7086-45fa-bddb-eb1448976c88</variableId>
+      <variableId>8312dd6d-d2c9-4bf7-8903-3830eebbd53f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>112cb038-8ff8-410e-982d-07ac9100c98b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>68c55595-b757-4261-9c5d-5e73432ae41f</id>
+      <id>82e35728-5314-4ba0-ad67-c4a6a2308764</id>
       <masked>false</masked>
       <name>UserName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a9d3c43c-bd85-45ca-ada7-109b87fba7ad</id>
+      <id>657ed694-f271-4515-a9fe-acfad6967360</id>
       <masked>false</masked>
       <name>ZipCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>64e07320-09fb-4360-9cc0-065749b4db6c</id>
+      <id>1f48b86f-0ba4-416a-b853-03c0b206ec26</id>
       <masked>false</masked>
       <name>Email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f8d02862-f687-49ad-acb3-bffd7177d0ab</id>
+      <id>1118885b-9369-409a-aa83-8f88684700b6</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>68a44726-56c4-4787-aaed-2c7f49de26a3</id>
+      <id>d04839db-661c-4703-a2e5-c8020a95b4a2</id>
+      <masked>false</masked>
+      <name>Profile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1eaa5376-49a4-4241-ac64-4b3751493b40</id>
       <masked>false</masked>
       <name>EducationNew</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0dfc700f-6bfd-4a0b-a05c-46616a065d12</id>
+      <id>16a20e1d-1d21-42b8-ab2a-b53548542092</id>
       <masked>false</masked>
       <name>HobbiesNew</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7a0ba9f-f2af-48bc-b4eb-31d698b7f78a</id>
+      <id>8312dd6d-d2c9-4bf7-8903-3830eebbd53f</id>
       <masked>false</masked>
       <name>ExpectationsNew</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a626d2b8-7086-45fa-bddb-eb1448976c88</id>
+      <id>112cb038-8ff8-410e-982d-07ac9100c98b</id>
       <masked>false</masked>
       <name>OtherNew</name>
    </variable>

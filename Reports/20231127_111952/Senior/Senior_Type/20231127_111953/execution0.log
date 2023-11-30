@@ -21429,10 +21429,7 @@ TC03_ReRecord_Type.run(TC03_ReRecord_Type:131)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2023-11-27T07:04:15.490179300Z</date>
   <millis>1701068655490</millis>
@@ -22252,3 +22249,4 @@ TC03_ReRecord_Type.run(TC03_ReRecord_Type:131)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>
