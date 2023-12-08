@@ -65,7 +65,9 @@ WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Crea
 
 //wait for category-view page to load
 //WebUI.waitForPageLoad(180)
-WebUI.delay(45)
+WebUI.delay(20)
+
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
 //Capture and print data of Education Category
 String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 

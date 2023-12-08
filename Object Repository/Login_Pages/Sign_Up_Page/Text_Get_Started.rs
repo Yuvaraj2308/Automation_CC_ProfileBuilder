@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text_Check Your Email</name>
+   <name>Text_Get_Started</name>
    <tag></tag>
-   <elementGuidId>160900dc-87bc-49b5-87dd-c85f2528890c</elementGuidId>
+   <elementGuidId>183a67aa-c717-442e-93f3-2eb2807a0352</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div/div/div/p</value>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/p</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>p.h3.text-center</value>
+         <value>p.heading-text.text-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,54 +22,54 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>fdaa83cd-9a13-4e63-b443-706dbbf6ee7a</webElementGuid>
+      <webElementGuid>e36d1873-68d9-4001-a048-e9ad6b1872a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>h3 text-center</value>
-      <webElementGuid>3107d3e1-fee7-4001-a582-7579425e529a</webElementGuid>
+      <value>heading-text text-center</value>
+      <webElementGuid>0f43596f-bfe9-4cda-a39e-60fedf2d27fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Check Your Email</value>
-      <webElementGuid>f5b81cc9-8571-414f-ab00-5096ff297020</webElementGuid>
+      <value>Get Started.</value>
+      <webElementGuid>7bfeee6d-cb69-48a6-9e4e-10724bf82379</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 login-container mx-auto mx-md-0&quot;]/div[@class=&quot;login-sign-up--innercontainer&quot;]/div[@class=&quot;login-forget-container&quot;]/div[1]/p[@class=&quot;h3 text-center&quot;]</value>
-      <webElementGuid>c5d7f51a-52dd-44c2-823d-dde99f0550d7</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 login-container mx-auto mx-md-0&quot;]/div[@class=&quot;login-sign-up--innercontainer&quot;]/div[@class=&quot;login-sign-up-container&quot;]/p[@class=&quot;heading-text text-center&quot;]</value>
+      <webElementGuid>de155f3f-d195-4004-976f-6d8446ce4f2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div/div/div/div/p</value>
-      <webElementGuid>80a1375e-d733-44e6-bbd1-3381d765955f</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/p</value>
+      <webElementGuid>d85932ac-11ea-4131-96fa-3f218796eaae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/div/div/div/div/p</value>
-      <webElementGuid>cdf10490-1191-4dd9-a83b-00963cb2ac3e</webElementGuid>
+      <value>//p</value>
+      <webElementGuid>0e52c6cc-e7f3-440f-8c23-6f4cb605171d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Check Your Email' or . = 'Check Your Email')]</value>
-      <webElementGuid>1cfb871a-fc9b-456a-8b91-48896f1122ba</webElementGuid>
+      <value>//p[(text() = 'Get Started.' or . = 'Get Started.')]</value>
+      <webElementGuid>e258de84-363a-439b-ac93-c6d463dcee7f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

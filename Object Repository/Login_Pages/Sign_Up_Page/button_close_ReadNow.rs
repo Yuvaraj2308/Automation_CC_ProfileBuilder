@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Read_Now</name>
+   <name>button_close_ReadNow</name>
    <tag></tag>
-   <elementGuidId>1c891a7a-9985-4ff7-9089-1bce37e13e78</elementGuidId>
+   <elementGuidId>5e4a305f-9ac7-4983-86ff-e7669548bfc1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.text-primary.button-position-modal</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.text-primary.button-position-modal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8abf8472-eb16-4469-a049-859b38284ad9</webElementGuid>
+      <webElementGuid>8cd0b2d9-e4e1-48a2-be87-4ac3585a50e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a52d0ffc-3c1c-4db8-a0b2-f58fda141ef6</webElementGuid>
+      <webElementGuid>014480aa-6755-42d3-8d91-85309ca66d76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn text-primary button-position-modal</value>
-      <webElementGuid>218b6014-a1bd-4efe-8028-b6c364151ea4</webElementGuid>
+      <webElementGuid>462e4ee4-85b4-41be-916d-97e441f3f123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;Modal-intro&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-text-container&quot;]/div[@class=&quot;row w-100 justify-content-between&quot;]/div[@class=&quot;col-3 d-flex flex-row-reverse&quot;]/button[@class=&quot;btn text-primary button-position-modal&quot;]</value>
-      <webElementGuid>59ec2873-31b9-4a50-b33e-74b19212ad28</webElementGuid>
+      <webElementGuid>a89c8ea6-9241-4006-a3c4-ef4ef59cea3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>dc5b0660-f448-4f2b-88c0-8fb429903b0c</webElementGuid>
+      <webElementGuid>0ec2c169-d2ac-436e-aee0-e40226e8d0f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[3]/div/div/div/div[2]/button</value>
-      <webElementGuid>215b437e-ea8a-4cfb-8d68-7d100d869dcb</webElementGuid>
+      <webElementGuid>57fe7628-e432-4747-aae9-b94fbc2b4f58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>fdaee7ab-2d81-4730-bb32-4c0a835cfcde</webElementGuid>
+      <webElementGuid>662017d3-1cf1-4457-90a3-28907f470955</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>ac99877e-18fd-43b0-9e64-aa6394750696</webElementGuid>
+      <webElementGuid>ad26bccf-e459-4d1e-b50a-b337fe7327f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
