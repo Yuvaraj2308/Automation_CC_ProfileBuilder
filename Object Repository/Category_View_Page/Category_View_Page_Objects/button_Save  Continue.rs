@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>21648a32-b5da-4c05-a583-2ba93acc405b</webElementGuid>
+      <webElementGuid>497b710d-b1fc-43c6-b3be-c9767e95f388</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value> primary</value>
-      <webElementGuid>d020634e-e3b5-470c-afe3-cfea9111fda7</webElementGuid>
+      <webElementGuid>0eea5937-f416-48a5-8f68-d8333783d705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>cbe30e4f-f067-461b-838f-f1e8fd159932</webElementGuid>
+      <webElementGuid>f1ccf48e-6bd5-4927-92d9-35a4c1b3acc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save &amp; Continue</value>
-      <webElementGuid>9afcfd94-9eb9-4dc1-b70c-ad585628f237</webElementGuid>
+      <webElementGuid>c2d73198-68e5-4634-bdd4-4d81365ad258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;px-2&quot;]/form[1]/div[@class=&quot;d-flex justify-content-sm-end justify-content-around border-dashed--container pt-3&quot;]/button[@class=&quot;primary&quot;]</value>
-      <webElementGuid>95d9c992-95bc-4703-9889-d2b1a4cdeb67</webElementGuid>
+      <webElementGuid>715ef0c8-633f-4cd0-98da-e3758c61e28a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>5f8ef05d-3787-45a0-a205-9b5f28825dc2</webElementGuid>
+      <webElementGuid>b7a2f168-1e51-41d6-9349-86399ecf8eb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/form/div[2]/button[2]</value>
-      <webElementGuid>2b56dfee-f814-4cd5-9b97-0955a85b9f99</webElementGuid>
+      <webElementGuid>e96ae2b3-9c16-42e8-b312-7227ec06452f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>69436921-6cc2-439d-82b5-4e0c4d59ca50</webElementGuid>
+      <webElementGuid>faa140ff-4eb0-440f-b3fb-876a79041b80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Save &amp; Continue' or . = 'Save &amp; Continue')]</value>
-      <webElementGuid>47d3de75-f17f-47cb-8b6b-cbacd2b0a44f</webElementGuid>
+      <webElementGuid>d50a30bc-3948-4268-b9d4-78c59de51605</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
