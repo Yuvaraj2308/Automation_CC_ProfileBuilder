@@ -3,11 +3,11 @@
    <description></description>
    <name>button_close_Read_Now</name>
    <tag></tag>
-   <elementGuidId>967e83a9-f8d8-4736-8eaa-e5c6e5e23244</elementGuidId>
+   <elementGuidId>987de10b-642f-4db3-881b-9e841030441c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>590a18ca-3455-4054-95fa-9d7dc778f874</webElementGuid>
+      <webElementGuid>1d90e26a-9656-473f-92a9-7904f283538f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>09325853-433d-4656-ad57-571fdadd04e5</webElementGuid>
+      <webElementGuid>bc3bbb3e-1a0a-4226-8e11-35d38c57ba9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn text-primary button-position-modal</value>
-      <webElementGuid>571c4a4a-008a-491c-b51f-4b3a84b37270</webElementGuid>
+      <webElementGuid>32c756bb-7beb-4f3c-b252-1142d67b1208</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;Modal-intro&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-text-container&quot;]/div[@class=&quot;row w-100 justify-content-between&quot;]/div[@class=&quot;col-3 d-flex flex-row-reverse&quot;]/button[@class=&quot;btn text-primary button-position-modal&quot;]</value>
-      <webElementGuid>8bfbe09b-1ead-44d3-9f57-c74ba0d29df0</webElementGuid>
+      <webElementGuid>bc59be66-cdff-436e-af98-aa788659ea7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='button']</value>
-      <webElementGuid>1a9f106c-e7ce-4a5e-abfc-13a49efa67b7</webElementGuid>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>199e0fca-0d68-4209-b104-58f30acbed8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[3]/div/div/div/div[2]/button</value>
-      <webElementGuid>f55ef103-f77c-4263-98b9-5596024806cf</webElementGuid>
+      <webElementGuid>067334d1-dc2e-409b-b09d-217f9c74d23d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>15b7aca4-1f0b-4446-8570-caa61bb62dbc</webElementGuid>
+      <webElementGuid>db947603-52e8-40a6-9d4c-8a8d8de72ff3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>0f6ce949-61d2-4d8a-9047-43d7c0e35f3b</webElementGuid>
+      <webElementGuid>6a7d8ec1-134a-4118-bbcd-6a278f3b9864</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
