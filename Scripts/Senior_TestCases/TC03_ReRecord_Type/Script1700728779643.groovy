@@ -70,14 +70,13 @@ WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : Email,
 WebUI.delay(5)
 
 //scroll to re-record button
-WebUI.scrollToElement(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record'), 
-    0)
+WebUI.scrollToElement(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Re-record'), 0)
 
 //click on Re-record
-WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record'))
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Re-record'))
 
 //click on proceed
-WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord'))
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Proceed'))
 
 //Click on I want to type button
 WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'), 
@@ -128,11 +127,11 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'), 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
     65)
 
 //click on save and continue btn
-WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Save  Continue'))
+WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
