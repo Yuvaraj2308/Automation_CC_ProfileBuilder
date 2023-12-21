@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_ChooseBusyDays</name>
+   <tag></tag>
+   <elementGuidId>4ab40437-c3aa-4da1-b607-95e18afc282d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>292bcd7b-6dd9-4f81-9b5b-5ab8094580a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Plan your busy days in advance</value>
+      <webElementGuid>27efa917-b290-4ea3-9807-d3dc63d8a911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-3 pt-4&quot;]/div[@class=&quot;custom-card-shadow card&quot;]/div[@class=&quot;p-0 card-body&quot;]/div[@class=&quot;card-container-card text-center&quot;]/div[@class=&quot;mx-auto mt-1&quot;]/h6[1]</value>
+      <webElementGuid>04263526-3fcd-479b-af03-26146ee58540</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/h6</value>
+      <webElementGuid>ea926a4e-ed7e-492f-8f02-42539e9c2afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/h6</value>
+      <webElementGuid>846dc3e7-15e0-49a0-ad6d-63a90dea928e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Plan your busy days in advance' or . = 'Plan your busy days in advance')]</value>
+      <webElementGuid>7808ec75-efb1-4f4e-8f70-738d3be55904</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

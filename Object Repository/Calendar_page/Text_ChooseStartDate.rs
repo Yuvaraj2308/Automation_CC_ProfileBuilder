@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_ChooseStartDate</name>
+   <tag></tag>
+   <elementGuidId>8a110efe-a6d6-4bbe-8e1a-e3089ce909ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>58523eb3-5a5f-4c4c-a780-f860daa0d213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose start date to begin companionship</value>
+      <webElementGuid>82586eb0-b8a5-4a3a-b9b9-0c4f0350ad38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-3 pt-4&quot;]/div[@class=&quot;custom-card-shadow mt-2 p-0 card&quot;]/div[@class=&quot;p-0 card-body&quot;]/div[@class=&quot;card-container-card text-center mt-1&quot;]/div[@class=&quot;date-pick&quot;]/h6[1]</value>
+      <webElementGuid>cf65ae68-3fb5-42c8-9ca1-c999a2d423ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/h6</value>
+      <webElementGuid>8075af4b-d167-461d-90fc-13ff85e94a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>873e474c-ec58-411c-a87e-195a04e30b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Choose start date to begin companionship' or . = 'Choose start date to begin companionship')]</value>
+      <webElementGuid>4a4c61c4-389e-4b23-9642-26f1e7f02c51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

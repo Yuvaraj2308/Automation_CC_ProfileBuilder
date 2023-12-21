@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Select_AvailableFrom</name>
+   <name>Select_Available_From</name>
    <tag></tag>
-   <elementGuidId>d6dfbea7-7646-4cff-acaa-87dcdbbce9ed</elementGuidId>
+   <elementGuidId>d2bdaf2e-5ebc-4309-b8cd-b7bddc5bf000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>3b1c0f28-5fd0-49dc-89f0-e36efc87b458</webElementGuid>
+      <webElementGuid>79904f77-ce9c-40ae-ba84-6f3ca3ed5ee1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>554eb0ba-dbb7-496b-96f9-202fe771cb03</webElementGuid>
+      <value>form-control select-item-icon</value>
+      <webElementGuid>bad64beb-af23-429a-b613-e5d298a098e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>name</name>
       <type>Main</type>
       <value>availableFrom</value>
-      <webElementGuid>b6c72420-bcb1-433f-acce-2fa7976dfb9d</webElementGuid>
+      <webElementGuid>241b91ec-6190-4b7d-b9b7-9b1877a91b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please Select07: AM08: AM09: AM10: AM11: AM12: PM01: PM02: PM03: PM04: PM05: PM06: PM</value>
-      <webElementGuid>78d33f09-f852-4cf9-8cfb-8fa394630a2b</webElementGuid>
+      <value>Please Select09:00 AM09:30 AM10:00 AM10:30 AM11:00 AM11:30 AM12:00 PM12:30 PM01:00 PM01:30 PM02:00 PM02:30 PM03:00 PM03:30 PM04:00 PM04:30 PM05:00 PM05:30 PM06:00 PM06:30 PM</value>
+      <webElementGuid>05691dc8-2697-4d8d-ba1a-e3b240bbe7aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;card flex justify-content-center&quot;]/div[@class=&quot;Modal&quot;]/div[@class=&quot;modal-addEvent-Container&quot;]/form[@class=&quot;form-group mx-auto&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/select[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>e3e45703-4e62-4c0c-af22-eefcd9d3256d</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;card flex justify-content-center&quot;]/div[@class=&quot;Modal&quot;]/div[@class=&quot;modal-addEvent-Container&quot;]/form[@class=&quot;form-group mx-auto&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-6 dropDown-container&quot;]/select[@class=&quot;form-control select-item-icon&quot;]</value>
+      <webElementGuid>402c949e-f4e8-4a0e-9299-b581b965ae99</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='availableFrom']</value>
-      <webElementGuid>d7b8bd46-edc0-455f-8878-89c70fa3adb7</webElementGuid>
+      <webElementGuid>fbe5227e-6432-4803-aa08-43499eb85a6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div[2]/div[2]/div/form/div/div/select</value>
-      <webElementGuid>643f2fec-2132-4a86-8009-1aed75ee3626</webElementGuid>
+      <webElementGuid>0f9d7efb-51af-4cd8-b462-183970b3598e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>fa572c8b-e9a9-442b-a347-48a553521700</webElementGuid>
+      <webElementGuid>20b1de01-65a4-4655-b841-4ea746270a0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@name = 'availableFrom' and (text() = 'Please Select07: AM08: AM09: AM10: AM11: AM12: PM01: PM02: PM03: PM04: PM05: PM06: PM' or . = 'Please Select07: AM08: AM09: AM10: AM11: AM12: PM01: PM02: PM03: PM04: PM05: PM06: PM')]</value>
-      <webElementGuid>b686335c-ccc2-424d-9e9d-87e83537a635</webElementGuid>
+      <value>//select[@name = 'availableFrom' and (text() = 'Please Select09:00 AM09:30 AM10:00 AM10:30 AM11:00 AM11:30 AM12:00 PM12:30 PM01:00 PM01:30 PM02:00 PM02:30 PM03:00 PM03:30 PM04:00 PM04:30 PM05:00 PM05:30 PM06:00 PM06:30 PM' or . = 'Please Select09:00 AM09:30 AM10:00 AM10:30 AM11:00 AM11:30 AM12:00 PM12:30 PM01:00 PM01:30 PM02:00 PM02:30 PM03:00 PM03:30 PM04:00 PM04:30 PM05:00 PM05:30 PM06:00 PM06:30 PM')]</value>
+      <webElementGuid>7c176c0e-3c5a-4089-9824-d7e203244f09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

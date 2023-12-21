@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_Available_From</name>
+   <tag></tag>
+   <elementGuidId>fcdd97af-48e3-4b49-9fe9-ba9280e14f18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div[2]/div/form/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>42103e67-33ab-4cf1-a7c1-1e95a7ea7365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Available from</value>
+      <webElementGuid>c61ecf47-0233-4fea-834d-563d2d6d9392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;card flex justify-content-center&quot;]/div[@class=&quot;Modal&quot;]/div[@class=&quot;modal-addEvent-Container&quot;]/form[@class=&quot;form-group mx-auto&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-6 dropDown-container&quot;]/label[1]</value>
+      <webElementGuid>84ddcfb0-3e79-4ebf-a9a9-efad5b82af59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div[2]/div/form/div/div/label</value>
+      <webElementGuid>58981fbb-60fb-41b3-8827-ffee754d5a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>f88a3d78-e858-4b45-b492-153a36d15236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Available from' or . = 'Available from')]</value>
+      <webElementGuid>286acb11-d2c0-4a9f-b7b0-da1f4852b810</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

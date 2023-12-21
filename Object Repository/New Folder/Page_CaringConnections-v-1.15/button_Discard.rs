@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text_Select_single_date_or_dateRange</name>
+   <name>button_Discard</name>
    <tag></tag>
-   <elementGuidId>09897ae9-ec92-4953-b955-7ef4306f29f6</elementGuidId>
+   <elementGuidId>7a9de693-942a-4736-9e72-df61426665c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h6.text-center</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div/h6</value>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div[2]/div/form/div[2]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h6</value>
-      <webElementGuid>880fc730-70cf-47c7-88d9-14768ad3b44d</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3ea8eb6a-c1dc-42c6-9d99-d3c7cc0d18c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-center</value>
-      <webElementGuid>fe3f5729-5935-4625-99cd-8b943be3e1e3</webElementGuid>
+      <value> tertiary mx-2  </value>
+      <webElementGuid>8369ae88-4ccd-416f-bb06-33d3e6c77482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Select single date or date range</value>
-      <webElementGuid>fb52c8ea-5f3f-467e-9970-c13e7dbcea81</webElementGuid>
+      <value>Discard</value>
+      <webElementGuid>47c9f520-07cb-4921-8d01-1898a54e4388</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[2]/div[@class=&quot;custom-card-shadow card&quot;]/div[@class=&quot;p-0 card-body&quot;]/h6[@class=&quot;text-center&quot;]</value>
-      <webElementGuid>b2afbd04-856a-4323-ad61-1d74e50c5249</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;card flex justify-content-center&quot;]/div[@class=&quot;Modal&quot;]/div[@class=&quot;modal-addEvent-Container&quot;]/form[@class=&quot;form-group mx-auto&quot;]/div[@class=&quot;row mt-3 border-dashed--container&quot;]/div[@class=&quot;d-flex flex-row-reverse mt-2&quot;]/button[@class=&quot;tertiary mx-2&quot;]</value>
+      <webElementGuid>70b1bc6d-33f7-42d6-8977-bc5da7a9a030</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div/h6</value>
-      <webElementGuid>1cfe35a8-698b-46a5-af23-5a201b9105d7</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div[2]/div/form/div[2]/div/button[2]</value>
+      <webElementGuid>33bda87c-56ad-4456-b01f-9b560b8a540c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/h6</value>
-      <webElementGuid>31e348e7-e4d4-482c-a84c-11c26bfba022</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>3f94e7ea-f554-4c07-ad71-b3c565588ae6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h6[(text() = 'Select single date or date range' or . = 'Select single date or date range')]</value>
-      <webElementGuid>f6ce475a-6777-47de-81db-8dab8de16756</webElementGuid>
+      <value>//button[(text() = 'Discard' or . = 'Discard')]</value>
+      <webElementGuid>0c48e36c-2a70-4866-934d-e12872f4b55e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_weekly_availableTime</name>
+   <name>div_Sunday_Column</name>
    <tag></tag>
-   <elementGuidId>2555e997-396f-4cee-bf48-02359e8891ea</elementGuidId>
+   <elementGuidId>67510a37-01a2-4c34-9f09-440216df0def</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1b96389f-09fd-4bfd-a6d6-5d827c481d77</webElementGuid>
+      <webElementGuid>c33989f6-6ba8-4c9a-b624-248aefa4015b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>rbc-events-container</value>
-      <webElementGuid>4a7b235f-c398-4917-898f-3c0338d14329</webElementGuid>
+      <webElementGuid>e93788d3-dba3-4003-b446-d530990fa50a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;rbc-addons-dnd rbc-calendar&quot;]/div[@class=&quot;rbc-time-view&quot;]/div[@class=&quot;rbc-time-content&quot;]/div[@class=&quot;rbc-day-slot rbc-time-column&quot;]/div[13]/div[@class=&quot;rbc-events-container&quot;]</value>
-      <webElementGuid>34ffa5a2-fa33-4cf4-99e1-b5af70056d0f</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;mx-auto Calender-container&quot;]/div[@class=&quot;rbc-addons-dnd rbc-calendar&quot;]/div[@class=&quot;rbc-time-view&quot;]/div[@class=&quot;rbc-time-content&quot;]/div[@class=&quot;rbc-day-slot rbc-time-column&quot;]/div[13]/div[@class=&quot;rbc-events-container&quot;]</value>
+      <webElementGuid>946281d4-ac85-405d-afd3-f776e742268c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/div/div[2]/div[4]/div[13]/div</value>
-      <webElementGuid>d6bce884-cdba-4139-afc7-4b3eb9480d58</webElementGuid>
+      <webElementGuid>410c5afb-e688-489f-9005-0d0734a6bac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[13]/div</value>
-      <webElementGuid>adec66d8-f07e-4dab-baaf-9831fbc60e82</webElementGuid>
+      <webElementGuid>c5129f8d-afa4-4a76-861b-abf8f8796cd2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

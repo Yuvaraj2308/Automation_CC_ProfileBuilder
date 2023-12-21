@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Choose_start_date_begin_companionship</name>
+   <name>Input_Busy_Days</name>
    <tag></tag>
-   <elementGuidId>29b1ebfb-fcad-4bb4-bf51-f7c74cfadb48</elementGuidId>
+   <elementGuidId>5720b7eb-7143-4d28-91dd-02d1f2e173f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input.form-control</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='12/19/2023 ']</value>
+         <value>//input[@value='']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>98bdc185-53b8-43ac-a9e6-fab89f91169f</webElementGuid>
+      <webElementGuid>8678fb6d-ac20-4bc8-92dc-c835e8c54d32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5de2b866-9b6f-4d45-9b8f-d1199b889356</webElementGuid>
+      <webElementGuid>c1eddec7-0d23-44bf-a1e7-84c7d3cdbda5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,62 +37,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>564a5126-0c74-4311-bd0c-d2cc228848da</webElementGuid>
+      <webElementGuid>9c93017d-5680-4634-81fc-e7a78fb579b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>MM/DD/YYYY</value>
-      <webElementGuid>b8563bfd-ed24-43d9-8912-c74624024b82</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>12/19/2023 </value>
-      <webElementGuid>66a7a582-fbb2-4b71-ac1e-2dc14db9cc38</webElementGuid>
+      <value>Add more dates</value>
+      <webElementGuid>c404c453-192d-423d-9e73-6167798fbf19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;custom-card-shadow card&quot;]/div[@class=&quot;p-0 card-body&quot;]/div[@class=&quot;card-container-card text-center mt-1&quot;]/div[@class=&quot;date-pick&quot;]/label[1]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>6dddcb99-4ec7-49cc-843c-653c7f3dc47c</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row mt-2&quot;]/div[@class=&quot;col-md-3 pt-4&quot;]/div[@class=&quot;custom-card-shadow card&quot;]/div[@class=&quot;p-0 card-body&quot;]/div[@class=&quot;card-container-card text-center&quot;]/div[@class=&quot;mx-auto mt-1&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>10a8872d-ca13-44f0-9400-ea946689a574</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='12/19/2023 ']</value>
-      <webElementGuid>2748eabf-ae41-44ad-8b8f-373b21af733c</webElementGuid>
+      <value>//input[@value='']</value>
+      <webElementGuid>98a6f831-9a3a-4ac0-88b7-7b1b1df387ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/label/div/div/div/input</value>
-      <webElementGuid>283b727f-804d-4715-9a07-d869da5567ae</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/div/div/div/input</value>
+      <webElementGuid>9396bdd2-1652-4ca2-82ff-62f59803d378</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9bb74dff-9194-4493-8798-1c9eee4e033e</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div/input</value>
+      <webElementGuid>8d4ab5c7-53df-4b8d-b2e1-79344c2a8496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'MM/DD/YYYY']</value>
-      <webElementGuid>16330aaf-28e2-48a8-8c96-f62c65a9249b</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Add more dates']</value>
+      <webElementGuid>7dd08894-855a-4b5d-a9bc-be1a68fe0393</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

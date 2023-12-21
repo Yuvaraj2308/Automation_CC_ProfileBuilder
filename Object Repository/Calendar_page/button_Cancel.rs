@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel</name>
+   <tag></tag>
+   <elementGuidId>30834790-7fa2-4bc7-8fb5-aace27d6e0f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b93b9741-5931-4b9d-b123-b5dcfe5e4dbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> tertiary mx-2  </value>
+      <webElementGuid>5081ba1e-5d19-4c63-9fc1-92a8449dfc8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+      <webElementGuid>c368d9f9-4e11-486d-8d18-9584d0cf1b8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[2]/div[2]/div[1]/div[@class=&quot;text-end&quot;]/button[@class=&quot;tertiary mx-2&quot;]</value>
+      <webElementGuid>21c2d34e-a9ae-4a56-8a41-3aba2de00ab8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div[3]/button</value>
+      <webElementGuid>bc0b7fd6-73bd-4a21-9b41-3cffa9be0762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[3]/button</value>
+      <webElementGuid>8801aa7a-6f9c-4806-b468-ee0a718d0e7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>0d2a31d1-5691-4577-958a-a2600b4feeb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
