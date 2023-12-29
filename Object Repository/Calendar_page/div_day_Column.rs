@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Sunday_Column</name>
+   <name>div_day_Column</name>
    <tag></tag>
    <elementGuidId>67510a37-01a2-4c34-9f09-440216df0def</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div/div/div/div[2]/div[4]/div[13]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

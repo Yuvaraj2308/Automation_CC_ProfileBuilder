@@ -31,57 +31,53 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
+//System.setProperty('Data Files/chromedriver-win64/chromedriver.exe')
+//
+//ChromeOptions options = new ChromeOptions()
+//
+//options.addArguments('start-maximized')
+//
+////Set preferences to allow microphone access
+////options.setExperimentalOption("prefs",
+////	new HashMap<String, Object>() {{
+////		put("profile.default_content_setting_values.media_stream_mic", 1);
+////	}}
+////);
+//// Set preferences to allow microphone access
+//DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+//
+//capabilities.setCapability(ChromeOptions.CAPABILITY, options)
+//
+//WebDriver driver = new ChromeDriver(capabilities)
+//
+//// Assuming you are using the Katalon Framework for the following lines
+//DriverFactory.changeWebDriver(driver)
+//
+////Open Browser
+//WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
+//
+////enter emailID
+//WebUI.setText(findTestObject('Object Repository/Login_Pages/Sign_In_Page/input_Username'), Email)
+//
+////enter password
+//WebUI.setText(findTestObject('Object Repository/Login_Pages/Sign_In_Page/input_Password'), Password)
+//
+////click on signup button
+//WebUI.click(findTestObject('Object Repository/Login_Pages/Sign_In_Page/button_Sign_In'))
+//click on rerecord button
+WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : 'luffy.pg1719@gmail.com', ('password') : 'Test@123'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-ChromeOptions options = new ChromeOptions()
+WebUI.delay(5)
 
-options.addArguments('start-maximized')
+//scroll to re-record button
+WebUI.scrollToElement(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Re-record'), 0)
 
-options.addArguments('force-device-scale-factor=0.85')
+//click on Re-record
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Re-record'))
 
-DesiredCapabilities capabilities = DesiredCapabilities.chrome()
-
-capabilities.setCapability(ChromeOptions.CAPABILITY, options)
-
-WebDriver driver = new ChromeDriver(capabilities)
-
-// Assuming you are using the Katalon Framework for the following lines
-DriverFactory.changeWebDriver(driver)
-//Open Browser
-WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
-
-
-//WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
-
-WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
-
-//enter first name and last name
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 'Palak')
-
-//enter zip code
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '414141')
-
-//enter emailID
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1735@gmail.com')
-
-//enter password
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
-
-//select role
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
-
-//click on signup button
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
-
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion'), 
-    0)
-
-//Verify Text "Select the Button of your choice"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'), 
-    0)
-
-//Verify Text "We are exicted"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited'), 0)
+//click on proceed
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/btn_Proceed'))
 
 //Click on I want to type button
 WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'), 
@@ -106,6 +102,33 @@ WebUI.delay(20)
 
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
+//Capture and print data of categories
+//String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'),
+//	'value')
+//
+////String EducationNew = 'I\'m Palak, a retired literature professor with a PhD from the University of Mumbai.'
+//CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('EDUCATION', Education, EducationNew)
+//
+////Capture and print data of Hobbies Category
+//String Hobbies = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies'),
+//	'value')
+//
+////String HobbiesNew = 'I\'ve dedicated over 35 years to teaching and now spend my retirement immersed in classic novels and poetry. I have a passion for painting and photography.'
+//CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('HOBBIES', Hobbies, HobbiesNew)
+//
+////Capture and print data of Expectation Category
+//String Expectations = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation'),
+//	'value')
+//
+////String ExpectationsNew = 'I value companions who are creative, thoughtful. We could discuss a novel or paint together.'
+//CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('EXPECTATIONS', Expectations, ExpectationsNew)
+//
+////Capture and print data of Other Category
+//String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health'),
+//	'value')
+//
+////String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
+//CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
     65)
 
@@ -115,7 +138,7 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 //calender page
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
 
-//WebUI.waitForElementClickable(findTestObject('null'), 
+//WebUI.waitForElementClickable(findTestObject('null'),
 //    10)
 WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
 
@@ -123,30 +146,41 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/div_27'))
+WebUI.click(findTestObject('Calendar_page/startDate/div_28'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_3'))
+WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_6'))
+WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
 
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.15/div_Sunday_Column'))
+WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('New Folder/Page_CaringConnections-v-1.15/Select_Available_From'), '01:30 PM', 
-    false)
+WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('New Folder/Page_CaringConnections-v-1.15/Select_Available_To'), '04:30 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '05:30 PM', false)
 
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.15/button_Save'))
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '06:00 PM', false)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/button_Save'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Next'))
 
-WebUI.click(findTestObject('Calendar_page/button_Save'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+
+9
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)

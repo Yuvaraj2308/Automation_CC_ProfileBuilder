@@ -136,22 +136,22 @@ WebUI.click(findTestObject('Calendar_page/busyDates/div_6'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.15/div_Sunday_Column'))
+WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('New Folder/Page_CaringConnections-v-1.15/Select_Available_From'), '01:30 PM',
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM',
 	false)
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('New Folder/Page_CaringConnections-v-1.15/Select_Available_To'), '04:30 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '04:30 PM', false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.15/button_Save'))
+WebUI.click(findTestObject('Calendar_page/button_Save'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Next'))
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/button_Save'))
+WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)

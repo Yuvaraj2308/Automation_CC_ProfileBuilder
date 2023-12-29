@@ -37,6 +37,8 @@ ChromeOptions options = new ChromeOptions()
 
 options.addArguments('start-maximized')
 
+options.addArguments('force-device-scale-factor=1.2')
+
 //Set preferences to allow microphone access
 options.setExperimentalOption("prefs",
 	new HashMap<String, Object>() {{

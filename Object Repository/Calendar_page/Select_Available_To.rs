@@ -6,12 +6,12 @@
    <elementGuidId>d7957c18-6cba-4ed2-ada0-10dc2df639bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;availableTo&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='availableTo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;availableTo&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

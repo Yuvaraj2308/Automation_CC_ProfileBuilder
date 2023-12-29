@@ -96,8 +96,10 @@ WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Pr
 WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
 
 //wait for category-view page to load
-//WebUI.waitForPageLoad(180)
-WebUI.delay(45)
+
+WebUI.delay(20)
+
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
 //Capture and print data of categories
 String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 
@@ -132,6 +134,53 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Pa
 
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
+
+//calender page
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
+
+//WebUI.waitForElementClickable(findTestObject('null'),
+//    10)
+WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
+
+WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/startDate/div_28'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
+
+WebUI.click(findTestObject('Calendar_page/busyDates/div_7'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/busyDates/div_8'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/div_day_Column'))
+
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '05:30 PM', false)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '06:00 PM', false)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/button_Save'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/button_Next'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+
+
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>demo</name>
+   <name>DemoTCsignin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>474a181e-a261-4fe6-a434-b671522c04e4</testCaseGuid>
+   <testCaseGuid>a9c92536-60e7-4dc2-bdf0-8e82e5def42e</testCaseGuid>
 </TestCaseEntity>

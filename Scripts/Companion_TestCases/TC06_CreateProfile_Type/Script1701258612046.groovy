@@ -102,9 +102,65 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Pa
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
 
 //verify thankyou page
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+//
+//WebUI.delay(2)
+//
+//WebUI.closeBrowser()
+
+//calender page
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
+
+//WebUI.waitForElementClickable(findTestObject('null'),
+//    10)
+WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
+
+WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/startDate/div_28'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
+
+WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/div_day_Column'))
+
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '05:30 PM', false)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '06:00 PM', false)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/button_Save'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Calendar_page/button_Next'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+
+9
+
+//verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
 
 WebUI.delay(2)
 
 WebUI.closeBrowser()
+
+
 

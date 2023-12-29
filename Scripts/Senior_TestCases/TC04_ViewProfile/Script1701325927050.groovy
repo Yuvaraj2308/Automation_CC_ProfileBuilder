@@ -68,8 +68,11 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Pa
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
  
 //verify thankyou page
-WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
- 
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+// 
+
+WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage')) 
+
 WebUI.delay(2)
  
 WebUI.closeBrowser()
