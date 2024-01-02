@@ -64,7 +64,6 @@ WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Pr
 WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
 
 //wait for category-view page to load
-
 WebUI.delay(20)
 
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
@@ -114,36 +113,39 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/div_27'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_3'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_6'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM',
-	false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM', false)
+
 WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '04:30 PM', false)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Save'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Next'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
-
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)

@@ -140,7 +140,6 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 //WebUI.delay(2)
 //
 //WebUI.closeBrowser()
-
 //calender page
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
 
@@ -152,17 +151,17 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/div_28'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_8'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_20'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_5'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_20'))
 
 WebUI.delay(2)
 

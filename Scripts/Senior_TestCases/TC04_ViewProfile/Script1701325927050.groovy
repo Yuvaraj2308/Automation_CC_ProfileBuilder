@@ -72,6 +72,7 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 // 
 
 WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage')) 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
 
 WebUI.delay(2)
  

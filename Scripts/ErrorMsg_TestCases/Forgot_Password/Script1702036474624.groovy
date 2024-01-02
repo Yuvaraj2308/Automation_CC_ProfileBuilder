@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
+
+WebUI.maximizeWindow()
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_WelcomeBack'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Login_Pages/Sign_In_Page/link_Forgot_password'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Forgot_Password_Page/Text_Forgot password'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Login_Pages/Forgot_Password_Page/button_Send_email'))
+
+WebUI.setText(findTestObject('Login_Pages/Forgot_Password_Page/Input_Username'), 'luffy.pg17gmail.com')
+
+WebUI.click(findTestObject('Login_Pages/Forgot_Password_Page/button_Send_email'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Forgot_Password_Page/ErrorMsg_Invalid_email_address'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Login_Pages/Forgot_Password_Page/Input_Username'), 'luffy.pg17@gmail.com')
+
+WebUI.click(findTestObject('Login_Pages/Forgot_Password_Page/button_Send_email'))
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Forgot_Password_Page/Text_Check Your Email'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Forgot_Password_Page/Text_Please_check_email'), 0, FailureHandling.STOP_ON_FAILURE)
+

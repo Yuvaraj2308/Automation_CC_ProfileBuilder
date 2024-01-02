@@ -47,12 +47,11 @@ WebDriver driver = new ChromeDriver(capabilities)
 
 // Assuming you are using the Katalon Framework for the following lines
 DriverFactory.changeWebDriver(driver)
+
 //Open Browser
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-
 //WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
-
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
 
 //enter first name and last name
@@ -73,19 +72,19 @@ WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
 //click on signup button
 WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
 
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion'),
-	0)
+WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion'), 
+    0)
 
 //Verify Text "Select the Button of your choice"
-WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'),
-	0)
+WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile'), 
+    0)
 
 //Verify Text "We are exicted"
 WebUI.verifyElementPresent(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited'), 0)
 
 //Click on I want to type button
-WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'),
-	65)
+WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'), 
+    65)
 
 //click on I wnt to type button
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'))
@@ -94,8 +93,8 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), 'Greetings, I\'m Palak, a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in environmental science, I dedicated decades to understanding and preserving the natural world. Beyond scientific pursuits, I find solace in the rhythm of pottery, shaping clay into intricate forms, and the therapeutic art of cooking. In a companion, I seek someone who shares my passion for environmental conservation and has an appreciation for the creative blend of artistry and sustainable living. Health-wise, I\'ve faced challenges with asthma, but with careful management and regular breathing exercises, I continue to pursue my passions with vigor. Life has been a captivating adventure, and I look forward to molding new experiences with a like-minded soul who appreciates the beauty of nature and the creativity of the human spirit.')
 
 //scroll to next btn
-WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'),
-	0)
+WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 
+    0)
 
 //click on next btn
 WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
@@ -106,8 +105,8 @@ WebUI.delay(20)
 
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'),
-	65)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
+    65)
 
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
@@ -123,32 +122,36 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/div_27'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_3'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/div_6'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM',
-	false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM', false)
+
 WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '04:30 PM', false)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Save'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/button_Next'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
@@ -159,6 +162,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thank
 WebUI.delay(2)
 
 WebUI.closeBrowser()
-
-
 
