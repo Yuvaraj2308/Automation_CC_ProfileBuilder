@@ -65,7 +65,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 ////click on signup button
 //WebUI.click(findTestObject('Object Repository/Login_Pages/Sign_In_Page/button_Sign_In'))
 //click on rerecord button
-WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : 'luffy.pg1719@gmail.com', ('password') : 'Test@123'], 
+WebUI.callTestCase(findTestCase('Common_TestCases/Sign_In'), [('email') : 'luffy.pg1950@gmail.com', ('password') : 'Test@123'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
@@ -152,11 +152,11 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_27'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_28'))
 
 WebUI.delay(2)
 
