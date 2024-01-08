@@ -12,6 +12,10 @@
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
+<<<<<<< HEAD
+   <sheetName>SeniorSignUp</sheetName>
+=======
    <sheetName>SpeakTestData</sheetName>
+>>>>>>> 769ed019d94673ef7a1b400c252fd828e4d14260
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
