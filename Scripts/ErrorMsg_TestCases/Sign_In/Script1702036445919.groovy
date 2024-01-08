@@ -23,6 +23,24 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_WelcomeBack'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Guidance_for_starting'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Shared_Purpose'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Shared_Purpose_description'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Impact'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Impact_description'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Inclusive'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Inclusive_description'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Aligned Values'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/Text_Aligned_Values_description'), 0, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Read_Now'))
 
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_close_Read_Now'))
@@ -39,13 +57,13 @@ WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/ErrorMsg_Pwd
 
 WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Username'), 'luffy.pg17@gmail.com')
 
-WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'Test@123')
+WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'Test@1234')
 
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Login_Pages/Sign_In_Page/ErrorMsg_Invalid_login_credentials'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'Test@1234')
+WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'Test@123')
 
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign In'))
 

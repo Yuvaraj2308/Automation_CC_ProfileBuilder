@@ -61,7 +61,11 @@ WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '414141')
 
 //enter emailID
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg17gh42h@gmail.com')
+=======
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1950@gmail.com')
+>>>>>>> 769ed019d94673ef7a1b400c252fd828e4d14260
 
 //enter password
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
@@ -122,7 +126,7 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_10'))
 
 WebUI.delay(3)
 
