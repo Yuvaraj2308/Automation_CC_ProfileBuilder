@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Address2</name>
+   <name>Input__MobileNumber</name>
    <tag></tag>
-   <elementGuidId>0787618a-38fd-4769-bb1d-043d5239dedd</elementGuidId>
+   <elementGuidId>2f44c26d-fe44-45d8-945f-617701cb7e9d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#inputAddress2</value>
+         <key>XPATH</key>
+         <value>//input[@id='inputPhoneNumber']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='inputAddress2']</value>
+         <key>CSS</key>
+         <value>#inputPhoneNumber</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7508ec31-a51c-43b2-9ce6-79da0d501585</webElementGuid>
+      <webElementGuid>52f99650-81b2-45b0-b27a-7cf8d65cfb43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>7f8bb8e1-0442-48d3-a0f3-122d4698d7e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +38,70 @@
       <name>class</name>
       <type>Main</type>
       <value> demographic-input</value>
-      <webElementGuid>a910802a-b1e7-4d36-ac09-3420f75a17bc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>94a6253b-d0b8-4a22-9c6c-d8889a2b4d65</webElementGuid>
+      <webElementGuid>23945caa-de0b-4e61-9c18-b239137ec5ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inputAddress2</value>
-      <webElementGuid>7e73984f-5484-4fd7-b9ca-4f3d34ceb50d</webElementGuid>
+      <value>inputPhoneNumber</value>
+      <webElementGuid>bc12fb7f-5462-42cc-8998-5f1d78b6f66a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Example: 4910 Pin Oak Drive NY</value>
-      <webElementGuid>d03305c2-2eb3-469e-aada-3bb779c6c381</webElementGuid>
+      <value>+1 (234) 567-8910</value>
+      <webElementGuid>d9691819-4ed4-4ac2-b507-642d66e9528a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>address2</value>
-      <webElementGuid>6515bfbb-629c-4f47-bf2e-913ef426adcd</webElementGuid>
+      <value>mobileNumber</value>
+      <webElementGuid>8a860232-6e2b-4144-9dd4-ed19f27823ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inputAddress2&quot;)</value>
-      <webElementGuid>af1145b5-d4f5-4ee2-a8cc-99eb7197dfc9</webElementGuid>
+      <value>id(&quot;inputPhoneNumber&quot;)</value>
+      <webElementGuid>9112fdd3-a375-4ce6-8cf9-edc3ae263be9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='inputAddress2']</value>
-      <webElementGuid>c9d232f0-5e98-406a-8293-cddfd4397720</webElementGuid>
+      <value>//input[@id='inputPhoneNumber']</value>
+      <webElementGuid>1ff45363-9ec8-49d9-b674-ee621d22eace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[4]/div/div[2]/input</value>
-      <webElementGuid>62ceda16-ed4d-4b64-ac6f-e6f2424614c3</webElementGuid>
+      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div/div/div[2]/div/div[2]/input</value>
+      <webElementGuid>a99d38fb-f72a-472d-ae19-10e20f6b9e23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div[2]/input</value>
-      <webElementGuid>8adffaf1-8e47-446f-aa40-dfccad8a5316</webElementGuid>
+      <value>//div[2]/div/div[2]/input</value>
+      <webElementGuid>d6395cde-e640-47af-839e-8ac710d122b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'inputAddress2' and @placeholder = 'Example: 4910 Pin Oak Drive NY' and @name = 'address2']</value>
-      <webElementGuid>17079a19-0e94-475b-8cfb-a56c64bf7b60</webElementGuid>
+      <value>//input[@type = 'tel' and @id = 'inputPhoneNumber' and @placeholder = '+1 (234) 567-8910' and @name = 'mobileNumber']</value>
+      <webElementGuid>b6c17612-6656-4745-842d-151082c3f04b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

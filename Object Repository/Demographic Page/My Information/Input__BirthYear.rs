@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Select a state first</name>
+   <name>Input__BirthYear</name>
    <tag></tag>
-   <elementGuidId>e5db748a-be50-41b7-a7fb-8c838d31e328</elementGuidId>
+   <elementGuidId>6d4a70fe-3770-4e04-a006-19b09b451d57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#inputCity</value>
+         <key>XPATH</key>
+         <value>//input[@id='inputBirth']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='inputCity']</value>
+         <key>CSS</key>
+         <value>#inputBirth</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-      <webElementGuid>4bb7c20c-e049-462c-a693-8fc0fd8c02d4</webElementGuid>
+      <value>input</value>
+      <webElementGuid>16a25f7e-23be-4cf3-8e0c-88b47727078e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> demographic-input</value>
-      <webElementGuid>b2ef7a24-8174-4401-b076-370bbd62be73</webElementGuid>
+      <value>demographic-input</value>
+      <webElementGuid>a038ab56-32e5-41ed-aa58-1bfe372116d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>201ddab7-50eb-487a-bca9-764393dde013</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inputCity</value>
-      <webElementGuid>b5070a14-ec21-4733-a711-50fb7fb99749</webElementGuid>
+      <value>inputBirth</value>
+      <webElementGuid>6dbe60ec-97cc-4472-b19b-a8fdf233b0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Example: YYYY</value>
+      <webElementGuid>f95f97d9-e3aa-476f-a9c2-8ee2166a4057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>city</value>
-      <webElementGuid>f43fd5f6-d3a4-470c-8ff9-a73e3902dc03</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Select a state first</value>
-      <webElementGuid>c8c5b6ca-e2f0-4fac-b98a-93507276834c</webElementGuid>
+      <value>birthYear</value>
+      <webElementGuid>aed70134-0020-4c65-8de0-15bab311f22c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inputCity&quot;)</value>
-      <webElementGuid>a3c461a7-23c4-4062-a1e1-17818af9807d</webElementGuid>
+      <value>id(&quot;inputBirth&quot;)</value>
+      <webElementGuid>3525636d-cfaa-4206-a3c9-2c56b1732cd1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='inputCity']</value>
-      <webElementGuid>5928f924-d2a2-4908-8d66-898c1d2b4c00</webElementGuid>
+      <value>//input[@id='inputBirth']</value>
+      <webElementGuid>4ea2a967-ea3d-41a2-a1c3-4ce6e0d59ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[5]/div/div[2]/div/div[2]/select</value>
-      <webElementGuid>cfb9c0d7-02a8-464e-b1ef-ff77f8206332</webElementGuid>
+      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[2]/div/div/div/div[2]/input</value>
+      <webElementGuid>5e8e27aa-d24d-424e-a2ed-99924b941bb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/select</value>
-      <webElementGuid>667b02ca-1f25-457a-a24b-77bf19ccf007</webElementGuid>
+      <value>//div[2]/div/div/div/div[2]/input</value>
+      <webElementGuid>15e92912-f9cc-4bd9-b32a-de064432562f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'inputCity' and @name = 'city' and (text() = 'Select a state first' or . = 'Select a state first')]</value>
-      <webElementGuid>311e389d-5e6a-4ce7-ac44-7c820a41e4cc</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'inputBirth' and @placeholder = 'Example: YYYY' and @name = 'birthYear']</value>
+      <webElementGuid>90eb7669-7864-4870-88de-25c072a09c12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

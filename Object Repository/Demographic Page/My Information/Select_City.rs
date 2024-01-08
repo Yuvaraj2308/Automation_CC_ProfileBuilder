@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input__BirthYear</name>
+   <name>Select_City</name>
    <tag></tag>
-   <elementGuidId>6d4a70fe-3770-4e04-a006-19b09b451d57</elementGuidId>
+   <elementGuidId>cca77110-9e06-41e9-a405-c6618d320047</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#inputBirth</value>
+         <key>XPATH</key>
+         <value>//select[@id='inputCity']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='inputBirth']</value>
+         <key>CSS</key>
+         <value>#inputCity</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>16a25f7e-23be-4cf3-8e0c-88b47727078e</webElementGuid>
+      <value>select</value>
+      <webElementGuid>96079667-a7bf-47d1-afe4-b23a4b3428a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>demographic-input</value>
-      <webElementGuid>a038ab56-32e5-41ed-aa58-1bfe372116d4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>201ddab7-50eb-487a-bca9-764393dde013</webElementGuid>
+      <value> demographic-input</value>
+      <webElementGuid>676af72c-d1fd-4725-bce5-d4f52235ff49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inputBirth</value>
-      <webElementGuid>6dbe60ec-97cc-4472-b19b-a8fdf233b0f7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Example: YYYY</value>
-      <webElementGuid>f95f97d9-e3aa-476f-a9c2-8ee2166a4057</webElementGuid>
+      <value>inputCity</value>
+      <webElementGuid>6768f770-6bf7-425c-a547-adbbee1244f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>birthYear</value>
-      <webElementGuid>aed70134-0020-4c65-8de0-15bab311f22c</webElementGuid>
+      <value>city</value>
+      <webElementGuid>43229094-43a3-4ed4-b323-f1ca4c0aba91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a city in PennsylvaniaPhiladelphiaPittsburghAllentownErieReadingScrantonBethlehemLancasterHarrisburgAltoonaYorkState CollegeWilkes-Barre</value>
+      <webElementGuid>864a27a9-eb74-4b13-a606-744a629a9b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inputBirth&quot;)</value>
-      <webElementGuid>3525636d-cfaa-4206-a3c9-2c56b1732cd1</webElementGuid>
+      <value>id(&quot;inputCity&quot;)</value>
+      <webElementGuid>3189f275-938d-4613-b4b8-57c7af388470</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='inputBirth']</value>
-      <webElementGuid>4ea2a967-ea3d-41a2-a1c3-4ce6e0d59ac5</webElementGuid>
+      <value>//select[@id='inputCity']</value>
+      <webElementGuid>35d71018-d2f2-4924-a025-772b22df4690</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[2]/div/div/div/div[2]/input</value>
-      <webElementGuid>5e8e27aa-d24d-424e-a2ed-99924b941bb8</webElementGuid>
+      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[5]/div/div[2]/div/div[2]/select</value>
+      <webElementGuid>b66d195c-2334-4095-b283-cf25c56fc9cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div[2]/input</value>
-      <webElementGuid>15e92912-f9cc-4bd9-b32a-de064432562f</webElementGuid>
+      <value>//div[2]/div/div[2]/select</value>
+      <webElementGuid>7de47953-af80-4f8a-b52f-541eec40fe28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'inputBirth' and @placeholder = 'Example: YYYY' and @name = 'birthYear']</value>
-      <webElementGuid>90eb7669-7864-4870-88de-25c072a09c12</webElementGuid>
+      <value>//select[@id = 'inputCity' and @name = 'city' and (text() = 'Select a city in PennsylvaniaPhiladelphiaPittsburghAllentownErieReadingScrantonBethlehemLancasterHarrisburgAltoonaYorkState CollegeWilkes-Barre' or . = 'Select a city in PennsylvaniaPhiladelphiaPittsburghAllentownErieReadingScrantonBethlehemLancasterHarrisburgAltoonaYorkState CollegeWilkes-Barre')]</value>
+      <webElementGuid>28b641c4-1332-4cfd-9369-76217cd209b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
