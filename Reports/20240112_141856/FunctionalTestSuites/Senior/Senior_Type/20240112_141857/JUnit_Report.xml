@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_Type" time="234.218" tests="2" failures="0" errors="0">
+   <testsuite name="Senior_Type" tests="2" failures="0" errors="0" time="234.218" skipped="0" timestamp="2024-01-12 14:19:00" hostname="PalakGupta - LININDAUG23-266.bbrouter" id="Test Suites/FunctionalTestSuites/Senior/Senior_Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240112_141856\\FunctionalTestSuites\\Senior\\Senior_Type\\20240112_141857"/>
+         <property name="logFiles" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240112_141856\\FunctionalTestSuites\\Senior\\Senior_Type\\20240112_141857\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PalakGupta - LININDAUG23-266.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="24eea08a6761d7be82d8c4cec4cf4ec8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Senior_TestCases/TC01_CreateProfile_Type" time="118.326" classname="Test Cases/Senior_TestCases/TC01_CreateProfile_Type" status="PASSED">
+         <system-out><![CDATA[2024-01-12 14:19:00 - [TEST_CASE][PASSED] - Test Cases/Senior_TestCases/TC01_CreateProfile_Type: Test Cases/Senior_TestCases/TC01_CreateProfile_Type
+
+2024-01-12 14:19:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Senior_SignUp"), ["username":UserName, "email":Email, "zipcode":ZipCode, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+2024-01-12 14:19:01 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Senior_SignUp: Test Cases/Common_TestCases/Senior_SignUp
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747795$1(this)): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-12 14:19:01 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-12 14:19:02 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-12 14:19:02 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-12 14:19:07 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-12 14:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-12 14:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-12 14:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_First_Last_Name"), username): Text 'Naveen' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-12 14:19:07 - [MESSAGE][PASSED] - Text 'Naveen' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-12 14:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_ZIP_code"), zipcode): Text '464646' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-12 14:19:07 - [MESSAGE][PASSED] - Text '464646' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-12 14:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Username"), email): Text 'naveenn100@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-12 14:19:07 - [MESSAGE][PASSED] - Text 'naveenn100@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-12 14:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-12 14:19:08 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-12 14:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_role_Senior")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+2024-01-12 14:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+2024-01-12 14:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-12 14:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-12 14:19:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+2024-01-12 14:19:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion' is present
+
+2024-01-12 14:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Companion' is present
+
+2024-01-12 14:19:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-12 14:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-12 14:19:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-12 14:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-12 14:19:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type"), 65): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+2024-01-12 14:19:54 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+2024-01-12 14:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2024-01-12 14:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2024-01-12 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2024-01-12 14:19:55 - [MESSAGE][PASSED] - Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2024-01-12 14:19:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+2024-01-12 14:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:19:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+2024-01-12 14:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:19:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-12 14:20:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-12 14:20:15 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'With a background in literature, I dedicated decades to exploring the rich world of words and stories.'
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'With a background in literature, I dedicated decades to exploring the rich world of words and stories.'
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word.'
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word.'
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling.'
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling.'
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor.'
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor.'
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-12 14:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-12 14:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:20:33 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-12 14:20:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-12 14:20:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-12 14:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:20:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-12 14:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Start_Date")): Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-12 14:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-12 14:20:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-12 14:20:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-12 14:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_14")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_14' is clicked on
+
+2024-01-12 14:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_14' is clicked on
+
+2024-01-12 14:20:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-12 14:20:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-12 14:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-12 14:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-12 14:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_17")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_17' is clicked on
+
+2024-01-12 14:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_17' is clicked on
+
+2024-01-12 14:20:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_22")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_22' is clicked on
+
+2024-01-12 14:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_22' is clicked on
+
+2024-01-12 14:20:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-12 14:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-12 14:20:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "01:30 PM", false): All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-12 14:20:46 - [MESSAGE][PASSED] - All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-12 14:20:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "04:30 PM", false): All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-12 14:20:48 - [MESSAGE][PASSED] - All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-12 14:20:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-12 14:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-12 14:20:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-12 14:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-12 14:20:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-12 14:20:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-12 14:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-12 14:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-12 14:20:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:20:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:20:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-12 14:20:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_TestCases/TC03_ReRecord_Type" time="115.533" classname="Test Cases/Senior_TestCases/TC03_ReRecord_Type" status="PASSED">
+         <system-out><![CDATA[2024-01-12 14:20:58 - [TEST_CASE][PASSED] - Test Cases/Senior_TestCases/TC03_ReRecord_Type: Test Cases/Senior_TestCases/TC03_ReRecord_Type
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Sign_In"), ["email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-12 14:20:59 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Sign_In: Test Cases/Common_TestCases/Sign_In
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747802$1(this)): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-12 14:20:59 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-12 14:21:00 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-12 14:21:00 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-12 14:21:04 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-12 14:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Username"), email): Text 'naveenn100@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-12 14:21:04 - [MESSAGE][PASSED] - Text 'naveenn100@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-12 14:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-12 14:21:04 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-12 14:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Pages/Sign_In_Page/button_Sign_In")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-12 14:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-12 14:21:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-12 14:21:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-12 14:21:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-12 14:21:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Re-record"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Re-record' successfully
+
+2024-01-12 14:21:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:21:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Re-record' successfully
+
+2024-01-12 14:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Re-record")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Re-record' is clicked on
+
+2024-01-12 14:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Re-record' is clicked on
+
+2024-01-12 14:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Proceed")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed' is clicked on
+
+2024-01-12 14:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed' is clicked on
+
+2024-01-12 14:21:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type"), 65): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+2024-01-12 14:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+2024-01-12 14:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2024-01-12 14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2024-01-12 14:21:56 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2024-01-12 14:21:57 - [MESSAGE][PASSED] - Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2024-01-12 14:21:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+2024-01-12 14:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:21:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+2024-01-12 14:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:21:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-12 14:22:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-12 14:22:17 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'With a background in literature, I dedicated decades to exploring the rich world of words and stories.'
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'With a background in literature, I dedicated decades to exploring the rich world of words and stories.'
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word.'
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word.'
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling.'
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling.'
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor.'
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor.'
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-12 14:22:34 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-12 14:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-12 14:22:36 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-12 14:22:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-12 14:22:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-12 14:22:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-12 14:22:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-12 14:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-12 14:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-12 14:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_20")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_20' is clicked on
+
+2024-01-12 14:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_20' is clicked on
+
+2024-01-12 14:22:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_16")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_16' is clicked on
+
+2024-01-12 14:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_16' is clicked on
+
+2024-01-12 14:22:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-12 14:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-12 14:22:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "05:30 PM", false): All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-12 14:22:42 - [MESSAGE][PASSED] - All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-12 14:22:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "06:00 PM", false): All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-12 14:22:44 - [MESSAGE][PASSED] - All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-12 14:22:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-12 14:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-12 14:22:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-12 14:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-12 14:22:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-12 14:22:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-12 14:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-12 14:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-12 14:22:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-12 14:22:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-12 14:22:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-12 14:22:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-12 14:19:00 - [TEST_SUITE][PASSED] - Senior_Type: Test Cases/Senior_TestCases/TC03_ReRecord_Type]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

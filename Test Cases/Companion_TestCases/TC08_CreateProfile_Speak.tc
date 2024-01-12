@@ -33,12 +33,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6fbf914c-506b-4bd5-a582-ff6e47b531c7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4e046362-c048-43f1-ba9c-30b123cf552c</variableId>
    </variableLinks>
    <variableLinks>
@@ -86,13 +80,6 @@
       <id>b0227dc5-4cfc-4345-86ab-c6953884d338</id>
       <masked>false</masked>
       <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>6fbf914c-506b-4bd5-a582-ff6e47b531c7</id>
-      <masked>false</masked>
-      <name>Profile</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

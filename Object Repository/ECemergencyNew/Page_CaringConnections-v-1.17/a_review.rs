@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_review</name>
+   <tag></tag>
+   <elementGuidId>9494a9c0-2cf0-40e2-82f4-1ff398e65612</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div[3]/div/div[2]/div/p/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a9f6995d-7593-483c-ba96-4ad0e781cd38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/#</value>
+      <webElementGuid>a7303b39-d16a-47ad-bc75-acd4ab378267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>review </value>
+      <webElementGuid>8b618fb7-34e6-475d-b8e8-da316a31ecdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-hippa-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-11&quot;]/div[@class=&quot;row&quot;]/p[@class=&quot;hippa-heading&quot;]/span[1]/a[1]</value>
+      <webElementGuid>1569998f-c9db-4858-809a-a3d6b04ee608</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[3]/div/div[2]/div/p/span/a</value>
+      <webElementGuid>d0628fe0-123d-4a2a-8e66-fa243fb6be51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'review')]</value>
+      <webElementGuid>c9be1a03-8407-4684-b7a2-11fc7aef6f32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/#')])[2]</value>
+      <webElementGuid>8eb1ada9-1589-4f29-b58b-2a1a9ee1cda7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>2f03fbcd-c147-4864-b12e-e4f0843e3704</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/#' and (text() = 'review ' or . = 'review ')]</value>
+      <webElementGuid>8afaf2bc-f347-4b7e-92f3-0c69ab27617e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

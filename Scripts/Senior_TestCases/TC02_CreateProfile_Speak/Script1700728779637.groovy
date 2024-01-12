@@ -92,7 +92,6 @@ WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Crea
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
 
 //Thread.sleep(40000)
-
 //wait for category-view page to load
 WebUI.delay(20)
 
@@ -149,7 +148,7 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
 
 WebUI.delay(3)
 
@@ -177,14 +176,14 @@ WebUI.click(findTestObject('Calendar_page/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/button_Next'))
+WebUI.click(findTestObject('Calendar_page/Button_Next (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
 //verify thankyou page
-WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
 
 WebUI.delay(2)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__makeAndModel</name>
+   <name>Input__makeAndModel</name>
    <tag></tag>
    <elementGuidId>bd754b2c-7177-4bd0-b800-a6793427ff8f</elementGuidId>
    <selectorCollection>

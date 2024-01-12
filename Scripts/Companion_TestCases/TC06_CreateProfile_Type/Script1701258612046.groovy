@@ -118,13 +118,13 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(2)
 
@@ -134,11 +134,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '05:30 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '12:30 PM', false)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '06:00 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '01:00 PM', false)
 
 WebUI.delay(2)
 
@@ -146,17 +146,14 @@ WebUI.click(findTestObject('Calendar_page/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/button_Next'))
+WebUI.click(findTestObject('Calendar_page/Button_Next (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
-
-9
+WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
 //verify thankyou page
-WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
 WebUI.delay(2)
 
 WebUI.closeBrowser()

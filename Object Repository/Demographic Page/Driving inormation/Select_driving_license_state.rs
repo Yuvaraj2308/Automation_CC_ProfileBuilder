@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_driving_license_state</name>
+   <tag></tag>
+   <elementGuidId>8458a8ba-c8e3-4ce3-8b68-5463182de58a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//select[@id='inputState'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-8.col-12 > div.col-12 > div.row.pt-3 > div.col-sm-12.col-12 > #inputState</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d186689c-6836-40ac-ab92-44b0525de3ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> demographic-input</value>
+      <webElementGuid>7694c856-8242-4a72-a6ad-c90906d105fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>inputState</value>
+      <webElementGuid>2474008c-9347-439e-b15a-108aef0b3818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dlState</value>
+      <webElementGuid>3b02bd80-afde-485c-a588-bdd3089f8855</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont</value>
+      <webElementGuid>235f7a66-b5f8-48da-b8bd-7f21e45b554b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/select[@id=&quot;inputState&quot;]</value>
+      <webElementGuid>f65b9bd2-2ead-4dfc-b271-cfa383d464df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//select[@id='inputState'])[2]</value>
+      <webElementGuid>19dc8dbe-ca4f-4ac7-a698-c8e3c71501f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[3]/div/div[2]/select</value>
+      <webElementGuid>1a2896de-ea3f-4eb6-99fb-2186abb04cc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[11]/following::select[1]</value>
+      <webElementGuid>dcbfe639-8772-4ec6-a14a-555dc02ae879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[12]/preceding::select[1]</value>
+      <webElementGuid>aef1c34a-7775-434a-a012-f0876aba03ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/select</value>
+      <webElementGuid>4a82b26c-85b8-4bc1-a191-2a332be839b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'inputState' and @name = 'dlState' and (text() = 'Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont' or . = 'Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont')]</value>
+      <webElementGuid>6d93f41e-0ffd-4948-8523-de1e8b394abd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -51,7 +51,6 @@ DriverFactory.changeWebDriver(driver)
 //Open Browser
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-//WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign_Up'))
 
 //enter first name and last name
@@ -61,11 +60,7 @@ WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '414141')
 
 //enter emailID
-<<<<<<< HEAD
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg17gh42h@gmail.com')
-=======
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1950@gmail.com')
->>>>>>> 769ed019d94673ef7a1b400c252fd828e4d14260
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1967@gmail.com')
 
 //enter password
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
@@ -116,17 +111,18 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Pa
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
 
 //calender page
+//wait for page to load
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
 
-//WebUI.waitForElementClickable(findTestObject('null'),
-//    10)
+//scroll to start date
 WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
 
+//select start date
 WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_10'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
 
 WebUI.delay(3)
 
@@ -154,14 +150,19 @@ WebUI.click(findTestObject('Calendar_page/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/button_Next'))
+WebUI.click(findTestObject('Calendar_page/Button_Next (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
+WebUI.callTestCase(findTestCase('Common_TestCases/SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1967@gmail.com'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+//------------------------------------------------------------------------------------------------
 //verify thankyou page
-WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0, 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

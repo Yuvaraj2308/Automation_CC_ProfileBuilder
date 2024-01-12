@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__licensePlate</name>
+   <name>Input__licensePlate</name>
    <tag></tag>
    <elementGuidId>88905eed-6284-472e-a764-db190e5b83ec</elementGuidId>
    <selectorCollection>
