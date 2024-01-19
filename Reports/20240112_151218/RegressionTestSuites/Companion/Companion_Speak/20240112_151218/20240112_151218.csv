@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Companion_Speak,Chrome 120.0.0.0,,,2024-01-12 15:12:36,2024-01-12 15:14:44,2m - 7.977s,FAILED
+,,,,,,,
+Test Cases/Companion_TestCases/TC08_CreateProfile_Speak,Chrome 120.0.0.0,,,2024-01-12 15:12:36,2024-01-12 15:14:30,1m - 53.757s,FAILED
+"callTestCase(findTestCase(""Common_TestCases/Companion_SignUp""), [""username"":UserName, ""zipcode"":ZipCode, ""email"":Email, ""password"":Password], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-12 15:12:37,2024-01-12 15:12:48,10.625s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 120.0.0.0,,,2024-01-12 15:12:48,2024-01-12 15:12:57,9.359s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 120.0.0.0,,,2024-01-12 15:12:57,2024-01-12 15:12:57,0.074s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 120.0.0.0,,,2024-01-12 15:12:57,2024-01-12 15:13:41,43.442s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 120.0.0.0,,,2024-01-12 15:13:41,2024-01-12 15:13:41,0.169s,PASSED
+try,Chrome 120.0.0.0,,,2024-01-12 15:13:41,2024-01-12 15:13:59,17.636s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 120.0.0.0,,,2024-01-12 15:13:59,2024-01-12 15:13:59,0.141s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next""), 0)",Chrome 120.0.0.0,,,2024-01-12 15:13:59,2024-01-12 15:14:30,31.286s,FAILED
+,,,,,,,
+Test Cases/Companion_TestCases/TC09_ReRecord_Speak,Chrome 120.0.0.0,,,2024-01-12 15:14:30,2024-01-12 15:14:44,13.763s,FAILED
+"callTestCase(findTestCase(""Common_TestCases/Sign_In""), [""email"":Email, ""password"":Password], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-12 15:14:30,2024-01-12 15:14:38,7.653s,PASSED
+delay(5),Chrome 120.0.0.0,,,2024-01-12 15:14:38,2024-01-12 15:14:43,5.013s,PASSED
+"scrollToElement(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Re-record""), 0)",Chrome 120.0.0.0,,,2024-01-12 15:14:43,2024-01-12 15:14:43,0.076s,PASSED
+"click(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Re-record""))",Chrome 120.0.0.0,,,2024-01-12 15:14:43,2024-01-12 15:14:44,0.767s,FAILED

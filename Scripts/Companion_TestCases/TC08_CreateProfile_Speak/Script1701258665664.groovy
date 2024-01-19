@@ -77,22 +77,19 @@ catch (Exception e) {
 
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop'))
 
-/*
-// Find the element to which you want to scroll
-WebElement elementToScrollTo = WebUiCommonHelper.findWebElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 10)
-// Scroll to the element
-JavascriptExecutor js = (JavascriptExecutor) driver
-js.executeScript("arguments[0].scrollIntoView(true);", elementToScrollTo)
-*/
 //scroll to next btn
-WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 0)
+WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 0)
 
-WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 60)
+WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 60)
 
 //click on next btn
-WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
+WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
 
-Thread.sleep(40000)
+
+//wait for category-view page to load
+WebUI.delay(20)
+
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
 //Capture and print data of Education Category
 String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 
@@ -122,18 +119,11 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
-    65)
+WebUI.waitForElementClickable(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 65)
 
 //click on save and continue btn
-WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'))
 
-//verify thankyou page
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-//
-//WebUI.delay(2)
-//
-//WebUI.closeBrowser()
 //calender page
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
 
@@ -145,27 +135,27 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_7'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_23'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_26'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_24'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '05:30 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '03:00 PM', false)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '06:00 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '04:00 PM', false)
 
 WebUI.delay(2)
 
@@ -173,16 +163,16 @@ WebUI.click(findTestObject('Calendar_page/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/button_Next'))
+WebUI.click(findTestObject('Calendar_page/Button_Next (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage'))
+WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
-9
+
 
 //verify thankyou page
-WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
 
 WebUI.delay(2)
 

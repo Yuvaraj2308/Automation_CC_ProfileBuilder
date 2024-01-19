@@ -60,7 +60,7 @@ WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '414141')
 
 //enter emailID
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1967@gmail.com')
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1979@gmail.com')
 
 //enter password
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
@@ -122,17 +122,17 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_23'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_24'))
 
 WebUI.delay(2)
 
@@ -156,7 +156,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
-WebUI.callTestCase(findTestCase('Common_TestCases/SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1967@gmail.com'], 
+WebUI.callTestCase(findTestCase('Common_TestCases/SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1979@gmail.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //------------------------------------------------------------------------------------------------

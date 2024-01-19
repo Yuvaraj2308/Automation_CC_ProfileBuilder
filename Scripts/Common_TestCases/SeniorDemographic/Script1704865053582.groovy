@@ -63,9 +63,8 @@ WebUI.selectOptionByLabel(findTestObject('ECemergencyNew/Page_CaringConnections-
 
 WebUI.setText(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'), '111111')
 
-WebUI.setText(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'), '1234567890')
+WebUI.setText(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'), '12345678909')
 
-WebUI.setText(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'), '1234509876')
+WebUI.setText(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'), '12345098769')
 
-WebUI.click(findTestObject('ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_hippa'))
 

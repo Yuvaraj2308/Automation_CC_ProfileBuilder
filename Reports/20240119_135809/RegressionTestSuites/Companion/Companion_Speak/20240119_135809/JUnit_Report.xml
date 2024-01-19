@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Companion_Speak" time="270.317" tests="2" failures="1" errors="0">
+   <testsuite name="Companion_Speak" tests="2" failures="1" errors="0" time="270.317" skipped="0" timestamp="2024-01-19 13:58:11" hostname="PalakGupta - LININDAUG23-266.bbrouter" id="Test Suites/RegressionTestSuites/Companion/Companion_Speak">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_135809\\RegressionTestSuites\\Companion\\Companion_Speak\\20240119_135809"/>
+         <property name="logFiles" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_135809\\RegressionTestSuites\\Companion\\Companion_Speak\\20240119_135809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PalakGupta - LININDAUG23-266.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="ce660adc83c99eeccad44c0c7d94adfe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Companion_TestCases/TC08_CreateProfile_Speak" time="135.705" classname="Test Cases/Companion_TestCases/TC08_CreateProfile_Speak" status="PASSED">
+         <system-out><![CDATA[2024-01-19 13:58:12 - [TEST_CASE][PASSED] - Test Cases/Companion_TestCases/TC08_CreateProfile_Speak: Test Cases/Companion_TestCases/TC08_CreateProfile_Speak
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Companion_SignUp"), ["username":UserName, "zipcode":ZipCode, "email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Companion_SignUp' successfully
+
+2024-01-19 13:58:12 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Companion_SignUp: Test Cases/Common_TestCases/Companion_SignUp
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-19 13:58:12 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747784$1(this)): null
+
+2024-01-19 13:58:13 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-19 13:58:13 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-19 13:58:13 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-19 13:58:14 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-19 13:58:14 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_First_Last_Name"), username): Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_ZIP_code"), zipcode): Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Username"), email): Text 'sagars125@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Text 'sagars125@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_role_Companion")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Companion' is clicked on
+
+2024-01-19 13:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Companion' is clicked on
+
+2024-01-19 13:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:58:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Companion_SignUp' successfully
+
+2024-01-19 13:58:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-19 13:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-19 13:58:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-19 13:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-19 13:58:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - try: null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - clip.start(): null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+2024-01-19 13:59:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:09 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:11 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:13 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:14 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:15 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:17 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:19 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:23 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:59:25 - [TEST_STEP][PASSED] - clip.stop(): null
+
+2024-01-19 13:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:59:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 13:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 13:59:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 13:59:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 60): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+2024-01-19 13:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+2024-01-19 13:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 13:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 13:59:40 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer from Shillong.'
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer from Shillong.'
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park.'
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park.'
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:00 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:00 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion.'
+
+2024-01-19 14:00:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion.'
+
+2024-01-19 14:00:01 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:01 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:01 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danvil. I have mild fever and I have asthma.'
+
+2024-01-19 14:00:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danvil. I have mild fever and I have asthma.'
+
+2024-01-19 14:00:01 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:01 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 14:00:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-19 14:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-19 14:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-19 14:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-19 14:00:03 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-19 14:00:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-19 14:00:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-19 14:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 14:00:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-19 14:00:05 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Start_Date")): Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-19 14:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-19 14:00:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 14:00:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 14:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_20")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+2024-01-19 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+2024-01-19 14:00:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 14:00:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 14:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-19 14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-19 14:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_23")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23' is clicked on
+
+2024-01-19 14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23' is clicked on
+
+2024-01-19 14:00:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_24")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_24' is clicked on
+
+2024-01-19 14:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_24' is clicked on
+
+2024-01-19 14:00:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-19 14:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-19 14:00:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "05:30 PM", false): All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-19 14:00:15 - [MESSAGE][PASSED] - All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-19 14:00:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "06:00 PM", false): All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-19 14:00:18 - [MESSAGE][PASSED] - All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-19 14:00:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-19 14:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-19 14:00:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-19 14:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-19 14:00:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 14:00:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 14:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-19 14:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-19 14:00:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 14:00:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 14:00:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-19 14:00:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Companion_TestCases/TC09_ReRecord_Speak" time="134.319" classname="Test Cases/Companion_TestCases/TC09_ReRecord_Speak" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Companion_TestCases/TC09_ReRecord_Speak FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)&#xa;	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=120.0.6099.225)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: ce660adc83c99eeccad44c0c7d94adfe&#xa;*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xa;	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2024-01-19 14:00:27 - [TEST_CASE][FAILED] - Test Cases/Companion_TestCases/TC09_ReRecord_Speak: Test Cases/Companion_TestCases/TC09_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Sign_In"), ["email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-19 14:00:28 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Sign_In: Test Cases/Common_TestCases/Sign_In
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747802$1(this)): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-19 14:00:28 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-19 14:00:29 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-19 14:00:29 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 14:00:33 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 14:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Username"), email): Text 'sagars125@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-19 14:00:34 - [MESSAGE][PASSED] - Text 'sagars125@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-19 14:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-19 14:00:34 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-19 14:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Pages/Sign_In_Page/button_Sign_In")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-19 14:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-19 14:00:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-19 14:00:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-19 14:00:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-19 14:00:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+2024-01-19 14:00:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 14:00:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+2024-01-19 14:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+2024-01-19 14:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+2024-01-19 14:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+2024-01-19 14:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+2024-01-19 14:00:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 14:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 14:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - try: null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - clip.start(): null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+2024-01-19 14:01:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:28 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:30 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:31 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:32 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:33 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:34 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:35 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:36 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:37 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:39 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:40 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:41 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:42 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 14:01:43 - [TEST_STEP][PASSED] - clip.stop(): null
+
+2024-01-19 14:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 14:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 14:01:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-19 14:02:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-19 14:02:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 14:02:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 14:02:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 14:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 14:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 14:02:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-19 14:02:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-19 14:02:23 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 14:02:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 14:02:23 - [TEST_STEP][FAILED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at Script1704179098517.run(Script1704179098517.groovy:88)
+	... 15 more
+)
+
+2024-01-19 14:02:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2024-01-19 14:02:42 - [MESSAGE][FAILED] - Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at Script1704179098517.run(Script1704179098517.groovy:88)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[2024-01-19 14:00:27 - [TEST_CASE][FAILED] - Test Cases/Companion_TestCases/TC09_ReRecord_Speak: Test Cases/Companion_TestCases/TC09_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-19 13:58:11 - [TEST_SUITE][FAILED] - Companion_Speak: Test Cases/Companion_TestCases/TC09_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2024-01-19 13:58:11 - [TEST_SUITE][FAILED] - Companion_Speak: Test Cases/Companion_TestCases/TC09_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at TC09_ReRecord_Speak.run(TC09_ReRecord_Speak:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705652889249.run(TempTestSuite1705652889249.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LININDAUG23-266', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PALAKG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce660adc83c99eeccad44c0c7d94adfe
+*** Element info: {Using=xpath, value=//textarea[@id='inputDescriptionEducation']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

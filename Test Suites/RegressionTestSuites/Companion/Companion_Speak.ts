@@ -90,5 +90,41 @@
          <testDataId>Data Files/Speak_Test_Data/Speak_Test_Data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>72d6b2cb-ba27-4419-a0d3-1960287a76ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>488824d7-7aeb-47ce-a91f-5d4cd6f41e7e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EducationNew</value>
+         <variableId>f99dbc7a-3d75-4dad-b3ab-585316239d29</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HobbiesNew</value>
+         <variableId>41b5e1c5-aee4-471b-a72c-bbe337b75974</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExpectationsNew</value>
+         <variableId>e75fbbcb-351b-4b65-93fd-26f57c66dcc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5a27940-5e8f-48f8-92f4-f9ea1acde6c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>OtherNew</value>
+         <variableId>5252de7f-d2ad-436c-8e26-64ae09386c46</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 WebUI.delay(20)
 
 //click on next btn
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.17/button_Next'))
+WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
 
 WebUI.delay(20)
 
@@ -109,8 +109,7 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
-    65)
+WebUI.waitForElementClickable(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 65)
 
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
@@ -138,11 +137,11 @@ WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
 //WebUI.delay(3)
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_16'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_27'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_16'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_27'))
 
 WebUI.delay(2)
 

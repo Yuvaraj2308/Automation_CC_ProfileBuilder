@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_Speak" time="262.442" tests="2" failures="1" errors="0">
+   <testsuite name="Senior_Speak" tests="2" failures="1" errors="0" time="262.442" skipped="0" timestamp="2024-01-19 13:07:53" hostname="PalakGupta - LININDAUG23-266.bbrouter" id="Test Suites/FunctionalTestSuites/Senior/Senior_Speak">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_130751\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240119_130751"/>
+         <property name="logFiles" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_130751\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240119_130751\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_130751\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240119_130751\\1705650136260.png"/>
+         <property name="hostName" value="PalakGupta - LININDAUG23-266.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="7d7181ca6137822391821f37605bc902"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Senior_TestCases/TC02_CreateProfile_Speak" time="136.499" classname="Test Cases/Senior_TestCases/TC02_CreateProfile_Speak" status="PASSED">
+         <system-out><![CDATA[2024-01-19 13:07:54 - [TEST_CASE][PASSED] - Test Cases/Senior_TestCases/TC02_CreateProfile_Speak: Test Cases/Senior_TestCases/TC02_CreateProfile_Speak
+
+2024-01-19 13:07:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Senior_SignUp"), ["username":UserName, "zipcode":ZipCode, "email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+2024-01-19 13:07:54 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Senior_SignUp: Test Cases/Common_TestCases/Senior_SignUp
+
+2024-01-19 13:07:54 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-19 13:07:54 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747795$1(this)): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-19 13:07:55 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-19 13:07:56 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-19 13:07:56 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:08:00 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_First_Last_Name"), username): Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_ZIP_code"), zipcode): Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Username"), email): Text 'sagars111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Text 'sagars111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_role_Senior")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+2024-01-19 13:08:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+2024-01-19 13:08:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-19 13:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+2024-01-19 13:08:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-19 13:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+2024-01-19 13:08:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - try: null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - clip.start(): null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+2024-01-19 13:08:50 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:52 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:55 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:08:59 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:00 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:01 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:03 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:04 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:07 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:09:08 - [TEST_STEP][PASSED] - clip.stop(): null
+
+2024-01-19 13:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:09:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 13:09:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 13:09:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2024-01-19 13:09:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 60): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+2024-01-19 13:09:23 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+2024-01-19 13:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 13:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2024-01-19 13:09:23 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer'
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer'
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park'
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park'
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion'
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion'
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'I'm Danvil. I'm from Shillong I have mild fever and I have asthma'
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'I'm Danvil. I'm from Shillong I have mild fever and I have asthma'
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-19 13:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+2024-01-19 13:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-19 13:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+2024-01-19 13:09:46 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-19 13:09:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+2024-01-19 13:09:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-19 13:09:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 13:09:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+2024-01-19 13:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Start_Date")): Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-19 13:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+2024-01-19 13:09:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 13:09:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 13:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_20")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+2024-01-19 13:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+2024-01-19 13:09:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 13:09:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 13:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-19 13:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+2024-01-19 13:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_23")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_23' is clicked on
+
+2024-01-19 13:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_23' is clicked on
+
+2024-01-19 13:09:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:09:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_24")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_24' is clicked on
+
+2024-01-19 13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_24' is clicked on
+
+2024-01-19 13:09:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:09:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-19 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+2024-01-19 13:09:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "01:30 PM", false): All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-19 13:09:58 - [MESSAGE][PASSED] - All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+2024-01-19 13:09:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:10:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:10:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "04:30 PM", false): All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-19 13:10:00 - [MESSAGE][PASSED] - All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+2024-01-19 13:10:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:10:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-19 13:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+2024-01-19 13:10:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:10:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-19 13:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+2024-01-19 13:10:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-19 13:10:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-19 13:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-19 13:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+2024-01-19 13:10:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-19 13:10:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-19 13:10:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-19 13:10:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_TestCases/TC05_ReRecord_Speak" time="125.617" classname="Test Cases/Senior_TestCases/TC05_ReRecord_Speak" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)&#xa;	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2024-01-19 13:10:10 - [TEST_CASE][FAILED] - Test Cases/Senior_TestCases/TC05_ReRecord_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Sign_In"), ["email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-19 13:10:11 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Sign_In: Test Cases/Common_TestCases/Sign_In
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747802$1(this)): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+2024-01-19 13:10:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+2024-01-19 13:10:12 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2024-01-19 13:10:12 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:10:16 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+2024-01-19 13:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Username"), email): Text 'sagars111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-19 13:10:16 - [MESSAGE][PASSED] - Text 'sagars111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+2024-01-19 13:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-19 13:10:17 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+2024-01-19 13:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Pages/Sign_In_Page/button_Sign_In")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-19 13:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+2024-01-19 13:10:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Sign_In' successfully
+
+2024-01-19 13:10:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-19 13:10:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-19 13:10:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+2024-01-19 13:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-19 13:10:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+2024-01-19 13:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+2024-01-19 13:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+2024-01-19 13:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+2024-01-19 13:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+2024-01-19 13:10:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+2024-01-19 13:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+2024-01-19 13:11:07 - [TEST_STEP][PASSED] - try: null
+
+2024-01-19 13:11:07 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+2024-01-19 13:11:08 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+2024-01-19 13:11:08 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+2024-01-19 13:11:08 - [TEST_STEP][PASSED] - clip.start(): null
+
+2024-01-19 13:11:08 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+2024-01-19 13:11:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:09 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:11 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:13 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:14 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:15 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:17 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:19 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:23 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2024-01-19 13:11:25 - [TEST_STEP][PASSED] - clip.stop(): null
+
+2024-01-19 13:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+2024-01-19 13:11:25 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2024-01-19 13:11:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2024-01-19 13:11:45 - [TEST_STEP][FAILED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next")): Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at Script1701260651705.run(Script1701260651705.groovy:78)
+	... 15 more
+)
+
+2024-01-19 13:12:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type='submit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-01-19 13:12:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at Script1701260651705.run(Script1701260651705.groovy:78)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\PalakGupta\\OneDrive - pursuit software development pvt. ltd\\Desktop\\Automation_CaringConnection\\Reports\\20240119_130751\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240119_130751\\1705650136260.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-19 13:10:10 - [TEST_CASE][FAILED] - Test Cases/Senior_TestCases/TC05_ReRecord_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-19 13:07:53 - [TEST_SUITE][FAILED] - Senior_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2024-01-19 13:07:53 - [TEST_SUITE][FAILED] - Senior_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1705649871175.run(TempTestSuite1705649871175.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' located by '//button[@type='submit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

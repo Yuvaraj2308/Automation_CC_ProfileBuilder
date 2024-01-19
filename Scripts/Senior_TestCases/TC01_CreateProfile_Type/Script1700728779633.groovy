@@ -113,17 +113,17 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_23'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_24'))
 
 WebUI.delay(2)
 

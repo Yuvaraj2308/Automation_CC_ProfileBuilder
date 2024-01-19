@@ -118,27 +118,27 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_23'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_26'))
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_24'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Calendar_page/div_day_Column'))
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '12:30 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_From'), '01:30 PM', false)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '01:00 PM', false)
+WebUI.selectOptionByLabel(findTestObject('Calendar_page/Select_Available_To'), '04:30 PM', false)
 
 WebUI.delay(2)
 

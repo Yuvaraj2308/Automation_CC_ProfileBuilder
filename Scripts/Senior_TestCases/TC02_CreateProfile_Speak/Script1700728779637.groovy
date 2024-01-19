@@ -75,14 +75,6 @@ catch (Exception e) {
 
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop'))
 
-/*
-// Find the element to which you want to scroll
-WebElement elementToScrollTo = WebUiCommonHelper.findWebElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'), 10)
- 
-// Scroll to the element
-JavascriptExecutor js = (JavascriptExecutor) driver
-js.executeScript("arguments[0].scrollIntoView(true);", elementToScrollTo)
-*/
 //scroll to next btn
 WebUI.scrollToElement(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 0)
 
@@ -91,7 +83,7 @@ WebUI.waitForElementClickable(findTestObject('Profile_Creation_Page/Profile_Crea
 //click on next btn
 WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'))
 
-//Thread.sleep(40000)
+
 //wait for category-view page to load
 WebUI.delay(20)
 
@@ -131,12 +123,6 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Pa
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
 
-////verify thankyou page
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-//
-//WebUI.delay(2)
-//
-//WebUI.closeBrowser()
 //calender page
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
 
@@ -148,17 +134,17 @@ WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_14'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_20'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_17'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_23'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_22'))
+WebUI.click(findTestObject('Calendar_page/startDate/JanuaryStartDates/div_24'))
 
 WebUI.delay(2)
 
@@ -184,7 +170,6 @@ WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
 //verify thankyou page
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-
 WebUI.delay(2)
 
 WebUI.closeBrowser()

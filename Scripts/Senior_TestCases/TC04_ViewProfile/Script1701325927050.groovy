@@ -63,19 +63,25 @@ CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTH
  
 WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
     65)
- 
+
 //click on save and continue btn
 WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
- 
+
+//calender page
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
+
+
+WebUI.click(findTestObject('Calendar_page/Button_Next (1)'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/button_Ok'))
+
 //verify thankyou page
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-// 
-
-WebUI.click(findTestObject('Calendar_page/button_SaveCalendarPage')) 
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
-
 WebUI.delay(2)
- 
+
 WebUI.closeBrowser()
+
 
 
