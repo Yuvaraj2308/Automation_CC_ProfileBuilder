@@ -96,9 +96,10 @@ WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Pr
 //click on next btn
 WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next'))
 
-//wait for category-view page to load
-//WebUI.waitForPageLoad(180)
-WebUI.delay(45)
+WebUI.delay(20)
+
+WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
+
 
 //Capture and print data of categories
 String Education = WebUI.getAttribute(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), 

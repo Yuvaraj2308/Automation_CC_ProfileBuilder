@@ -60,7 +60,7 @@ WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_First_Last_Name'), 
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_ZIP_code'), '414141')
 
 //enter emailID
-WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg1979@gmail.com')
+WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'luffy.pg19799@gmail.com')
 
 //enter password
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Test@123')
@@ -104,6 +104,7 @@ WebUI.delay(20)
 
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/txt_1-2 minutes'), 180)
 
+//--------------------------------------------------------------------------------
 WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
     65)
 
@@ -156,7 +157,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
-WebUI.callTestCase(findTestCase('Common_TestCases/SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1979@gmail.com'], 
+WebUI.callTestCase(findTestCase('Common_TestCases/SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg19799@gmail.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //------------------------------------------------------------------------------------------------
