@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Companion_Type,,,,2024-02-13 12:12:22,2024-02-13 12:12:37,14.983s,ERROR
+,,,,,,,
+Test Cases/Companion_TestCases/TC06_CreateProfile_Type,,,,2024-02-13 12:12:29,2024-02-13 12:12:31,1.266s,ERROR
+"callTestCase(findTestCase(""Common_TestCases/Companion_SignUp""), [""username"":UserName, ""zipcode"":ZipCode, ""email"":Email, ""password"":Password], STOP_ON_FAILURE)",,,,2024-02-13 12:12:29,2024-02-13 12:12:31,1.255s,ERROR
+,,,,,,,
+Test Cases/Companion_TestCases/TC07_ReRecord_Type,,,,2024-02-13 12:12:35,2024-02-13 12:12:37,1.286s,ERROR
+"callTestCase(findTestCase(""Common_TestCases/Sign_In""), [""email"":Email, ""password"":Password], STOP_ON_FAILURE)",,,,2024-02-13 12:12:35,2024-02-13 12:12:37,1.276s,ERROR
